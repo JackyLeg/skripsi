@@ -1,173 +1,220 @@
 version: "3.1"
 
 intents:
-  - mulai_percakapan
-  - mencari_laptop
-  - laptop_lenovo
-  - perkenalan
-  - menyapa
-  - selamat_tinggal
-  - konfirmasi_pertanyaan
-  - membantah
-  - pembayaran
-  - akun
-  - pertanyaan_umum
-  - jenis_pembayaran  # Tambahkan intent ini
-  - Akun_dan_Informasi_Pelanggan
-  - choose_product
-  - marah
-  - bahagia
-  - sedih
+  - sapa
+  - pamit
+  # - fallback
+  - tampilkan_produk_acak
   - pilih_produk
+  #1
+  - tanya_kategori
+  - tanya_harga
+  - tanya_diskon
   - tanya_deskripsi
+  - tanya_gambar
+  - tanya_url
+  - tanya_brand
+  #2
+  - tanya_kategori+tanya_harga
+  - tanya_kategori+tanya_diskon
+  - tanya_kategori+tanya_deskripsi
+  - tanya_kategori+tanya_gambar
+  - tanya_kategori+tanya_url
+  - tanya_kategori+tanya_brand
+  - tanya_harga+tanya_diskon
+  - tanya_harga+tanya_deskripsi
+  - tanya_harga+tanya_gambar
+  - tanya_harga+tanya_url
+  - tanya_harga+tanya_brand
+  - tanya_diskon+tanya_deskripsi
+  - tanya_diskon+tanya_gambar
+  - tanya_diskon+tanya_url
+  - tanya_diskon+tanya_brand
+  - tanya_deskripsi+tanya_gambar
+  - tanya_deskripsi+tanya_url
+  - tanya_deskripsi+tanya_brand
+  - tanya_gambar+tanya_url
+  - tanya_gambar+tanya_brand
+  - tanya_url+tanya_brand
+  #3
+  - tanya_kategori+tanya_harga+tanya_diskon
+  - tanya_kategori+tanya_harga+tanya_deskripsi
+  - tanya_kategori+tanya_harga+tanya_gambar
+  - tanya_kategori+tanya_harga+tanya_url
+  - tanya_kategori+tanya_harga+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_deskripsi
+  - tanya_kategori+tanya_diskon+tanya_gambar
+  - tanya_kategori+tanya_diskon+tanya_url
+  - tanya_kategori+tanya_diskon+tanya_brand
+  - tanya_kategori+tanya_deskripsi+tanya_gambar
+  - tanya_kategori+tanya_deskripsi+tanya_url
+  - tanya_kategori+tanya_deskripsi+tanya_brand
+  - tanya_kategori+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_url+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_deskripsi
+  - tanya_harga+tanya_diskon+tanya_gambar
+  - tanya_harga+tanya_diskon+tanya_url
+  - tanya_harga+tanya_diskon+tanya_brand
+  - tanya_harga+tanya_deskripsi+tanya_gambar
+  - tanya_harga+tanya_deskripsi+tanya_url
+  - tanya_harga+tanya_deskripsi+tanya_brand
+  - tanya_harga+tanya_gambar+tanya_url
+  - tanya_harga+tanya_gambar+tanya_brand
+  - tanya_harga+tanya_url+tanya_brand
+  - tanya_diskon+tanya_deskripsi+tanya_gambar
+  - tanya_diskon+tanya_deskripsi+tanya_url
+  - tanya_diskon+tanya_deskripsi+tanya_brand
+  - tanya_diskon+tanya_gambar+tanya_url
+  - tanya_diskon+tanya_gambar+tanya_brand
+  - tanya_diskon+tanya_url+tanya_brand
+  - tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_gambar+tanya_url+tanya_brand
+#4
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_url
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_harga+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_url+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_diskon+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_url+tanya_brand
+  - tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_kategori+tanya_gambar+tanya_url+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_gambar+tanya_url
+  - tanya_harga+tanya_diskon+tanya_gambar+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_url+tanya_brand
+  - tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_harga+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_harga+tanya_gambar+tanya_url+tanya_brand
+  - tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  - tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+#5
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_url+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  - tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  - tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  - tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+#6
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  - tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  - tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  - tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+#7
+  - tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
 
 entities:
-  - nama_pengguna
   - produk_id
 
 slots:
-  nama_pengguna:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: nama_pengguna
-
   produk_id:
     type: text
     mappings:
       - type: from_entity
         entity: produk_id
-
-
-actions:
-  - action_greet_user
-  - action_save_nama
-  - action_laptop_lenovo
-  - action_open_product_url
-  - action_respond_based_on_sentiment
-  - action_pilih_produk
-  - action_deskripsi_lenovo
-
+  nama:
+    type: text
+    mappings:
+      - type: custom
+  kategori:
+    type: text
+    mappings:
+      - type: custom
+  harga:
+    type: text
+    mappings:
+      - type: custom
+  harga_awal:
+    type: text
+    mappings:
+      - type: custom
+  deskripsi:
+    type: text
+    mappings:
+      - type: custom
+  gambar:
+    type: text
+    mappings:
+      - type: custom
+  url:
+    type: text
+    mappings:
+      - type: custom
+  brand:
+    type: text
+    mappings:
+      - type: custom
+  intent_terpilih:
+    type: list
+    influence_conversation: false
+    mappings:
+    - type: custom
 
 responses:
-  utter_sapa_pengguna:
-    - text: "Selamat datang {nama_pengguna}, ada yang bisa saya bantu?"
-  # utter_saran_produk:
-  #   - text: "{nama_pengguna}, produk apa yang ingin Anda cari hari ini?"
+  utter_sapa:
+    - text: "Halo, ada yang bisa saya bantu?"
+  utter_pamit:
+    - text: "Sampai jumpa!"
+  utter_fallback:
+    - text: "Saya agak bingung dengan maksud Anda. Bisakah Anda perjelas?"
+  utter_tanya_kategori:
+    - text: "Kategori produk ini adalah {kategori}."
+  utter_tanya_harga:
+    - text: "Harga produk ini adalah Rp {harga}."
+  utter_diskon:
+    - text: "Harga awalnya Rp {harga_awal}, sekarang Rp {harga}."
+  utter_tanya_deskripsi:
+    - text: "Deskripsi produk: {deskripsi}"
+  utter_tanya_gambar:
+    - text: "Ini gambarnya: {gambar}"
+  utter_tanya_url:
+    - text: "Link pembelian: {url}"
+  utter_tanya_brand:
+    - text: "Brand produk ini adalah {brand}"
 
-  utter_merk_laptop:
-    - text: "Berikut merupakan merk laptop yang tersedia, silahkan pilih merk yang anda inginkan:"
-      buttons:
-      - title: "Lenovo"
-        payload: "/laptop_lenovo"
-  
-  utter_pembuka:
-    - text: "Hai, selamat pagi! Ada yang bisa saya bantu? Boleh sebutkan nama Anda?"
+actions:
+  - action_tampilkan_10_produk_random
+  - action_pilih_produk
+  - action_multi_info_produk
 
-  utter_topik_pertanyaan:
-    - text: "Silahkan pilih topik pertanyaan yang ingin kamu tanyakan:"
-      buttons:
-      - title: "Pembayaran"
-        payload: "/pembayaran"
-
-      - title: "Akun dan Informasi Pelanggan"
-        payload: "/akun"
-      
-      - title: "Pertanyaan Umum"
-        payload: "/pertanyaan_umum"
-
-      - title: "Tentang Produk"
-        payload: "/mencari_laptop"
-
-  utter_topik_akun:
-    - text: "Berikut adalah pertanyaan terkait Akun & Informasi Pelanggan:"
-      buttons:
-      - title: "Bagaimana cara membuat akun?"
-        payload: "/pembayaran"
-
-      - title: "Bagaimana cara mengganti kata sandi akun saya?"
-        payload: "/akun"
-      
-      - title: "Apakah saya bisa melihat riwayat pesanan saya?"
-        payload: "/pertanyaan_umum"
-
-  utter_topik_pertanyaan_umum:
-    - text: "Berikut adalah pertanyaan terkait Pertanyaan Umum:"
-      buttons:
-      - title: "Bagaimana cara membuat akun?"
-        payload: "/pembayaran"
-
-      - title: "Bagaimana cara mengganti kata sandi akun saya?"
-        payload: "/akun"
-      
-      - title: "Apakah saya bisa melihat riwayat pesanan saya?"
-        payload: "/pertanyaan_umum"  
-
-  utter_topik_pembayaran:
-    - text: "Berikut adalah pertanyaan terkait Pembayaran:"
-      buttons:
-      - title: "Metode pembayaran apa saja yang tersedia?"
-        payload: "/jenis_pembayaran"
-
-      - title: "Apakah bisa menggunakan kartu kredit?"
-        payload: "/jenis_pembayaran"
-      
-      - title: "Apakah ada opsi bayar di tempat (COD)?"
-        payload: "/jenis_pembayaran"  
-
-
-  utter_halo:
-    - text: "Halo kembali!"
-    - text: "Halo lagi, Kak"
-
-#context analysis
-  utter_marah:
-    - text: "Maaf mendengar Anda marah. Bagaimana saya bisa membantu Anda?"
-
-  utter_bahagia:
-    - text: "Senang mendengar itu! Ada yang bisa saya bantu?"
-
-  utter_sedih:
-    - text: "Saya mengerti. Jika Anda butuh bantuan, saya siap membantu."
-
-  utter_pagi:
-    - text: "Selamat pagi! Ada yang bisa kami bantu hari ini?"
-
-  utter_siang:
-    - text: "Selamat siang! Ada yang bisa kami bantu hari ini?"
-
-  utter_sore:
-    - text: "Selamat sore! Ada yang bisa kami bantu hari ini?"
-
-  utter_malam:
-    - text: "Selamat malam! Ada yang bisa kami bantu hari ini?"
-
-  # utter_pembayaran:
-  #   - text: |
-  #       Berikut adalah pertanyaan terkait Pembayaran:
-  #       - Metode pembayaran apa saja yang tersedia?
-  #       - Apakah bisa menggunakan kartu kredit?
-  #       - Apakah ada opsi bayar di tempat (COD)?
-  #       - Apakah bisa menggunakan e-wallet seperti DANA atau GoPay?
-  #       - Apakah menerima pembayaran dengan transfer bank?
-
-  utter_jenis_pembayaran:
-    - text: |
-        Berikut jenis metode pembayaran yang tersedia:
-        - COD (Bayar di Tempat)
-        - Transfer Bank (Dicek Otomatis)/Virtual Account
-        - Kartu Kredit Debit dan Cicilan
-        - BNI Agen46
-        - BRI Direct Debit dan Agen BRILink
-        - DANA
-
-  # utter_akun:
-  #   - text: |
-  #       Berikut adalah pertanyaan terkait Akun & Informasi Pelanggan:
-  #         - Bagaimana cara membuat akun?
-  #         - Bagaimana cara mengganti kata sandi akun saya?
-  #         - Apakah saya bisa melihat riwayat pesanan saya?
-  #         - Bagaimana cara mengubah alamat pengiriman?
-
-
-  # Tambahkan respons untuk kategori lainnya jika diperlukan
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
