@@ -1,78 +1,40 @@
 import json
-from typing import Any, Text, Dict, List
+import random
+from typing import Any, Dict, List, Text, Union, Set
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
-import random
+from rasa_sdk.events import EventType
 
-class ActionGreetUser(Action):
-    def name(self) -> Text:
-        return "action_greet_user"
+PATH_JSON = "data/produk_flipkart.json"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # Menyapa pengguna dan meminta nama
-        dispatcher.utter_message(response="utter_pembuka")
-
+def baca_data_produk():
+    try:
+        with open(PATH_JSON, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error: {e}")
         return []
 
-class ActionSaveNama(Action):
-
-    def name(self) -> str:
-        return "action_save_nama"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: dict) -> list:
-        # Mengambil pesan terakhir dari pengguna
-        user_message = tracker.latest_message.get('text')
-        
-        # Mengambil nama dari input (misalkan nama adalah kata terakhir dari input)
-        # Ini bisa disesuaikan sesuai dengan cara kamu ingin mengambil nama
-        nama_pengguna = user_message.split()[-1]
-
-        # Memberikan respons ke pengguna
-        dispatcher.utter_message(response=f"utter_sapa_pengguna")
-        
-        # Mengembalikan SlotSet untuk menyimpan nama pengguna
-        return [SlotSet("nama_pengguna", nama_pengguna)]
-
-class ActionLaptopLenovo(Action):
-    
+class ActionTampilkan10ProdukRandom(Action):
     def name(self) -> Text:
-        return "action_laptop_lenovo"
+        return "action_tampilkan_10_produk_random"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # Mengambil data produk dari file JSON
-        with open('F:/rasa_projects/capstone/actions/produk.json', 'r') as file:
-            produk_data = json.load(file)
+        data = baca_data_produk()
+        if not data:
+            dispatcher.utter_message(text="Maaf, tidak dapat membaca data produk.")
+            return []
 
-        # Mengacak dan memilih 5 produk
-        produk_acak = random.sample(produk_data, min(5, len(produk_data)))
-
-        # Menyiapkan tombol produk
-        buttons = []
-        for produk in produk_acak:
-            produk_id = produk.get("ID")
-            nama = produk.get("nama")
-            harga = produk.get("harga")
-
-            # Menambahkan tombol untuk setiap produk
-            buttons.append({
-                "title": f"{nama} - {harga}",
-                "payload": f'/pilih_produk{{"produk_id":"{produk_id}"}}'
-            })
-
-        # Mengirimkan pesan dengan tombol produk
-        dispatcher.utter_message(text="Berikut 5 produk Lenovo di toko kami:", buttons=buttons)
-
+        random_produk = random.sample(data, 10)
+        pesan = "\n".join([f"{p['id']}: {p['nama']}" for p in random_produk])
+        dispatcher.utter_message(text="Berikut 10 produk acak:\n" + pesan)
         return []
 
 class ActionPilihProduk(Action):
-
     def name(self) -> Text:
         return "action_pilih_produk"
 
@@ -80,88 +42,114 @@ class ActionPilihProduk(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # Mendapatkan produk_id dari slot
         produk_id = tracker.get_slot("produk_id")
+        data = baca_data_produk()
+        produk = next((p for p in data if str(p["id"]) == str(produk_id)), None)
 
-        # Memuat data produk dari file JSON
-        with open('F:/rasa_projects/capstone/actions/produk.json', 'r') as file:
-            produk_data = json.load(file)
-
-        # Mencari produk berdasarkan produk_id
-        produk_terpilih = next((produk for produk in produk_data if produk.get("ID") == produk_id), None)
-
-        if produk_terpilih:
-            nama_produk = produk_terpilih.get("nama")
-            dispatcher.utter_message(text=f"Kamu memilih produk: {nama_produk}")
-        else:
+        if not produk:
             dispatcher.utter_message(text="Produk tidak ditemukan.")
+            return []
 
-        return [SlotSet("produk_id", produk_id)]
-
-class ActionDeskripsiLenovo(Action):
-    
-    def name(self) -> Text:
-        return "action_deskripsi_lenovo"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # Mendapatkan produk_id dari slot
-        produk_id = tracker.get_slot("produk_id")
-
-        # Memuat data produk dari file JSON
-        with open('F:/rasa_projects/capstone/actions/produk.json', 'r') as file:
-            produk_data = json.load(file)
-
-        # Mencari produk berdasarkan produk_id
-        produk_terpilih = next((produk for produk in produk_data if produk.get("ID") == produk_id), None)
-
-        if produk_terpilih:
-            deskripsi = produk_terpilih.get("deskripsi")
-            dispatcher.utter_message(text=f"Deskripsi produk:\n{deskripsi}")
-        else:
-            dispatcher.utter_message(text="Deskripsi untuk produk ini tidak ditemukan.")
-
-        return []
-
-#Sentiment Analysis##
-from datetime import datetime
-
-class ActionRespondBasedOnSentiment(Action):
-    def name(self) -> Text:
-        return "action_respond_based_on_sentiment"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # Mendapatkan intent terbaru
-        latest_intent = tracker.latest_message['intent'].get('name')
-
-        # Mendapatkan waktu saat ini
-        current_hour = datetime.now().hour
-
-        # Menentukan ucapan waktu sesuai waktu saat ini
-        if 5 <= current_hour < 12:
-            time_response = "utter_pagi"
-        elif 12 <= current_hour < 15:
-            time_response = "utter_siang"
-        elif 15 <= current_hour < 19:
-            time_response = "utter_greet_evening"
-        else:
-            time_response = "utter_sore"
-
-        # Memberikan respons sesuai intent dan waktu
-        if latest_intent == "marah":
-            dispatcher.utter_message(response="utter_marah")
-        elif latest_intent == "bahagia":
-            dispatcher.utter_message(response="utter_bahagia")
-        elif latest_intent == "sedih":
-            dispatcher.utter_message(response="utter_sedih")
-        else:
-            dispatcher.utter_message(response=time_response)
+        dispatcher.utter_message(text=f"Produk '{produk['nama']}' telah dipilih.")
+        return [
+            SlotSet("produk_id", produk["id"]),
+            SlotSet("nama", produk["nama"]),
+            SlotSet("kategori", produk.get("kategori")),
+            SlotSet("harga", produk.get("harga")),
+            SlotSet("harga_awal", produk.get("harga_awal")),
+            SlotSet("deskripsi", produk.get("deskripsi")),
+            SlotSet("gambar", produk.get("gambar")),
+            SlotSet("url", produk.get("url")),
+            SlotSet("brand", produk.get("brand")),
+        ]
         
+from typing import Any, Text, Dict, List, Union, Set
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import EventType, SlotSet
+
+class ActionMultiInfoProduk(Action):
+    def name(self) -> Text:
+        return "action_multi_info_produk"
+
+    # cache kandidat internal per session
+    intent_kandidat: List[Set[str]] = []
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[EventType]:
+
+        user_input = tracker.latest_message.get("text", "").strip().replace(" ", "")
+        user_intents = set(user_input.split("+"))
+
+        # Cek apakah input user cocok dengan kandidat sebelumnya
+        for kandidat in self.intent_kandidat:
+            if user_intents == kandidat:
+                self.intent_kandidat = []  # reset
+                return self._jawab_intents(list(user_intents), tracker, dispatcher)
+
+        # Ambil intent ranking dari fallback
+        ranking = tracker.latest_message.get("intent_ranking", [])
+        kandidat_names = [r["name"] for r in ranking if r["name"] != "nlu_fallback"][:2]
+
+        if len(kandidat_names) >= 2:
+            kandidat_sets = [set(name.split("+")) for name in kandidat_names]
+            self.intent_kandidat = kandidat_sets
+
+            dispatcher.utter_message(
+                text="Apa maksud Anda?",
+                buttons=[
+                    {"title": name.replace("+", " + "), "payload": name}
+                    for name in kandidat_names
+                ]
+            )
+        else:
+            dispatcher.utter_message(text="Maaf, saya tidak yakin dengan maksud Anda.")
+
         return []
 
+    def _jawab_intents(self, intents: List[str], tracker: Tracker,
+                        dispatcher: CollectingDispatcher) -> List[EventType]:
 
+        # Ambil semua slot produk
+        harga = tracker.get_slot("harga")
+        harga_awal = tracker.get_slot("harga_awal")
+        kategori = tracker.get_slot("kategori")
+        deskripsi = tracker.get_slot("deskripsi")
+        gambar = tracker.get_slot("gambar")
+        url = tracker.get_slot("url")
+        brand = tracker.get_slot("brand")
+
+        for i in intents:
+            if i == "tanya_harga":
+                if harga_awal and harga_awal != harga:
+                    dispatcher.utter_message(
+                        text=f"Harga produk ini adalah Rp {harga} (diskon dari Rp {harga_awal})."
+                    )
+                else:
+                    dispatcher.utter_message(text=f"Harga produk ini adalah Rp {harga}.")
+            elif i == "tanya_diskon":
+                if harga_awal and harga_awal != harga:
+                    potongan = int(harga_awal) - int(harga)
+                    dispatcher.utter_message(text=f"Produk ini sedang diskon sebesar Rp {potongan}.")
+                else:
+                    dispatcher.utter_message(text="Produk ini tidak sedang diskon.")
+            elif i == "tanya_kategori":
+                dispatcher.utter_message(text=f"Produk ini termasuk dalam kategori: {kategori}.")
+            elif i == "tanya_deskripsi":
+                dispatcher.utter_message(text=f"Deskripsi produk: {deskripsi}")
+            elif i == "tanya_gambar":
+                if gambar:
+                    dispatcher.utter_message(text="Ini gambar produk yang tersedia:")
+                    for g in gambar[:2]:
+                        dispatcher.utter_message(image=g)
+                else:
+                    dispatcher.utter_message(text="Maaf, gambar produk tidak tersedia.")
+            elif i == "tanya_url":
+                dispatcher.utter_message(text=f"Kamu bisa melihat detail produk di sini: {url}")
+            elif i == "tanya_brand":
+                dispatcher.utter_message(text=f"Brand dari produk ini adalah: {brand}")
+            else:
+                dispatcher.utter_message(text=f"Maaf, belum ada jawaban untuk '{i}'.")
+
+        return []

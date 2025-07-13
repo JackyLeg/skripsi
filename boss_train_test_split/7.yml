@@ -1,0 +1,13 @@
+version: "3.1"
+nlu:
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Produk ini dari kategori apa, harga berapa, dan ada diskon gak? Saya mau lihat deskripsi, gambar, link pembelian, dan brand-nya.
+    - Halo, saya pengen tahu kategori produk ini, harga jual, diskon yang tersedia, deskripsi, gambar, link pembelian, dan brand-nya.
+    - Produk ini dari kategori apa? Harga jual berapa? Apakah ada diskon? Saya juga pengen tahu deskripsi, gambar, link untuk beli, dan brand-nya.
+    - Bisa kasih tahu kategori produk, harganya, ada diskon gak? Saya mau lihat deskripsi, gambarnya, link pembelian, dan brand-nya juga.
+    - Produk ini kategori apa? Harga dan diskonnya gimana? Deskripsi, gambar, URL pembelian, dan brand-nya tolong ya.
+    - Produk ini dari kategori mana? Harganya berapa? Ada diskon? Deskripsi singkat, gambarnya, link pembelian, dan brand-nya penting.
+    - Saya mau tahu kategori dan harga produk ini, ada diskon gak? Tolong jelaskan deskripsi, tunjukkan gambar, berikan link pembelian, dan brand-nya siapa.
+    - Kategori produk, harga, diskon apa? Deskripsi, gambar, URL, dan brand-nya juga dong.
+    - Halo, saya mau tanya, kategori produk ini apa? Harganya berapa, dan ada potongan harga gak? Deskripsinya singkat dong, terus gambarnya, URL pembelian, dan brand-nya siapa ya?

@@ -1,0 +1,76 @@
+{
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 3
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": 4,
+      "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": 3,
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 2
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8947368421052632,
+    "support": 63
+  },
+  "macro avg": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8095238095238094,
+    "f1-score": 0.8285714285714285,
+    "support": 63
+  },
+  "weighted avg": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.8285714285714286,
+    "support": 63
+  },
+  "accuracy": 0.8095238095238095
+}

@@ -1,0 +1,233 @@
+version: "3.1"
+nlu:
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar
+  examples: |
+    - kak, saya cari barang kategori fashion, ini cocok gak? harganya dan tampilannya serta diskon dan fungsi
+    - admin, ini produk tampilannya gimana? terus masuk kategori apa, harganya, dan lagi diskon gak serta kegunaan?
+    - admin, ini termasuk produk apa ya kategorinya? saya juga perlu info harga, fungsi, diskon, dan gambar
+    - admin, ini produk buat apa ya? terus gambar dan kategorinya apa, harganya berapa dan promo-nya ada gak?
+    - kak, kategori produk ini apa ya? harga dan diskonnya, kegunaan serta tampilannya gimana?
+    - kak, barang ini termasuk kategori apa ya? harganya berapa, diskonnya gimana, terus fotonya dan gunanya apa sih?
+    - min, produk ini harganya berapa ya? terus kategori dan diskonnya serta kegunaan dan gambar?
+    - kak, saya penasaran harga dan gambar produk ini, ada diskon gak? dan ini termasuk kategori apa serta buat apa
+    - kak, barang ini termasuk kategori elektronik gak? saya juga mau tahu harga, gambar dan diskon serta penjelasannya
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url
+  examples: |
+    - kak, bisa kasih tahu link ke produk ini? terus harga, diskon, deskripsi dan dari kategori mana ya?
+    - admin, saya cari produk dari kategori tertentu, harganya sekitar segini, ada promo gak? link dan penjelasannya
+    - kak, ini produk masuk kategori apa ya? harganya berapa, lagi diskon gak, dan bisa minta link serta penjelasannya?
+    - kak, saya cari produk dari kategori tertentu, ini termasuk gak? diskonnya ada? harganya dan deskripsinya serta tautannya?
+    - min, link beli produk ini di mana ya? kategori, fungsi, harga dan promonya juga dong
+    - admin, produk ini fungsinya apa ya? harga sama promonya gimana? dan ini termasuk kategori apa? link-nya juga
+    - kak, link-nya dulu dong, terus harga, kategori, promo dan fungsi dari produk ini
+    - kak, saya mau lihat dulu deskripsi produk ini, harganya, link ke toko dan diskon serta termasuk kategori apa
+    - kak, fungsi produk ini apa ya? harganya berapa? link belinya dan termasuk kategori apa serta promonya?
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand
+  examples: |
+    - kak, saya mau tahu brand-nya dulu, terus harga, kategori, promo dan produk ini buat apa
+    - admin, fungsinya untuk apa sih? saya juga mau tahu brand, harga, kategori dan promonya
+    - kak, saya pengen tahu fungsi produk ini, dari kategori apa dan brand-nya serta info harga dan diskonnya juga
+    - admin, harga produk ini berapa ya? masuk kategori mana, terus diskonnya, mereknya, dan deskripsinya?
+    - min, produk ini buat apa sih? dari brand mana, harganya, diskon dan termasuk kategori apa ya?
+    - kak, ini produk gunanya apa ya? harganya berapa, terus dari brand apa, diskon dan kategori-nya
+    - min, fungsi barang ini apa ya? terus dari kategori apa, mereknya siapa dan harga serta diskon-nya dong
+    - min, bisa infoin harga, promo, dan produk ini buat apa ya? terus dari brand mana dan termasuk kategori apa?
+    - admin, saya mau tanya lengkap nih: kategori, harga, diskon, penjelasan, dan merek-nya siapa?
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url
+  examples: |
+    - kak, saya pengen lihat gambarnya, terus harga, diskonnya berapa, link produk dan termasuk kategori apa ya?
+    - min, barang ini masuk kategori apa ya? terus gambar produk, harga, diskon dan link ke tokonya?
+    - admin, infoin dong diskon dan harga produk ini, saya juga butuh gambar, link dan tahu masuk kategori apa
+    - min, tampilannya kayak gimana ya? dan masuk kategori apa, diskon-nya, harga serta link produk ini?
+    - admin, barang ini harganya berapa? dari kategori mana? ada diskon? bisa lihat gambarnya dan link-nya?
+    - kak, bisa tolong kirim link produk ini? sekalian gambar, kategori, diskon dan harga juga ya
+    - admin, barang ini gambar-nya gimana? ada diskon gak? berapa harga dan URL-nya serta termasuk kategori mana?
+    - min, tampilannya kayak gimana sih? ini masuk kategori apa? harganya, diskon dan link-nya juga
+    - min, gambar produk ini kayak gimana ya? dan harganya, lagi diskon gak, kategorinya, dan URL produk?
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_brand
+  examples: |
+    - min, tampilannya oke gak? dari brand apa? kategori dan diskonnya? dan harganya tolong juga ya
+    - admin, ini barang dari merek apa ya? masuk kategori mana, terus gambar, harga, dan diskonnya juga dong
+    - min, ini barang dari brand apa ya? kategori-nya apa, harganya dan diskon-nya serta tampilannya bisa saya lihat?
+    - admin, bisa kasih tahu info tentang harga, kategori, gambar produk ini, serta diskon dan mereknya?
+    - min, barang ini termasuk produk kategori fashion? saya juga pengen tahu brand, harga, diskon, dan tampilannya
+    - admin, bisa infoin brand produk ini? masuk kategori mana, diskonnya ada gak, harganya, dan gambarnya gimana?
+    - admin, produk ini diskon-nya lumayan gak? brand-nya, harga dan tampilannya serta kategori-nya tolong dijelaskan
+    - kak, tampilannya menarik gak? harga segimana? dan ini brand apa serta dari kategori mana ya? diskon juga dong
+    - min, saya mau lihat gambar produk ini dulu, terus diskon-nya, harga dan brand-nya serta kategori-nya ya
+- intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_url+tanya_brand
+  examples: |
+    - Min, saya butuh link produk, diskon, harga dan kategori. Dan ini mereknya siapa ya?
+    - Barang ini asal brand mana? Ada diskon gak? Harganya dan kategori apa? Link pembeliannya di mana?
+    - Kak, mau beli produk ini tapi tolong kasih info: brand, diskon, harga, kategori, dan link-nya.
+    - Kategori produk ini apa ya? Harganya, mereknya siapa, promo-nya gimana, dan tolong kasih URL-nya juga dong.
+    - Ini link-nya mana ya, min? Saya pengen tau harganya, brand-nya, terus ini masuk kategori apa dan diskon gak?
+    - Tolong dong info lengkapnya. Brand-nya, kategori produk ini apa, terus harganya dan URL + diskonnya.
+    - Kak, saya cari produk dari brand tertentu, pengen tahu link belinya, harganya, dan ini kategori serta diskonnya gimana.
+    - Barang ini dari merek apa ya? Link ke toko, harga, kategori dan diskon juga dong, min.
+    - Saya mau cek link produk ini dulu, terus info harga dan diskon-nya. Barang ini dari brand mana dan termasuk kategori apa ya?
+- intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url
+  examples: |
+    - Lagi nyari info nih, produk ini fungsinya buat apa? Harga, kategori, gambar dan link juga dong kalau ada.
+    - Penasaran, ini tuh barang apa ya? Butuh deskripsinya, terus link, gambar, harga dan masuk kategori mana?
+    - Ada preview fotonya nggak? Saya juga perlu info harga, URL, kategori, dan deskripsi produk ini.
+    - Boleh lihat produk ini gak? Saya butuh link-nya, gambarnya, harga, kegunaannya dan tahu ini produk kategori apa.
+    - Cek URL produk ini dong. Harganya, kategori, deskripsi, dan tampilannya tolong diinformasikan.
+    - Sebelum beli, saya ingin lihat dulu foto barangnya, deskripsi, harga, link produk dan ini produk jenis apa ya?
+    - Bisa minta semua infonya? Gambar, harga, deskripsi, URL produk dan produk ini dari kategori mana.
+    - Gambar barang ini kayak gimana ya? Saya juga butuh tahu deskripsi, link beli, kategori dan tentu aja harganya.
+    - Cari produk yang pas nih, saya butuh info harga, tampilan, kegunaan, tautan, dan kategori-nya juga.
+- intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand
+  examples: |
+    - Ini barang dari merek mana ya? Gambarnya mana, harganya berapa, kegunaannya dan ini termasuk kategori apa?
+    - Mau tahu gambar produk ini, fungsinya, asal merek, harga dan kategori-nya juga sekalian dong.
+    - Barang ini cocoknya dipakai buat apa sih? Lihat gambarnya dong, terus tahu harga, asal brand, dan kategori produknya.
+    - Bisa bantu jelaskan produk ini untuk apa? Butuh gambarnya juga, harganya berapa dan info brand serta kategorinya.
+    - Sebelum beli, aku mau tahu dulu gambar produknya, terus penjelasan singkat, harga, brand, dan kategori barang ini.
+    - Tolong bantu ya, saya mau tahu produk ini termasuk kategori mana, harganya, dari brand apa, tampilannya dan penjelasannya.
+    - Produk ini buatan brand apa ya? Terus harganya, tampilannya gimana dan fungsinya buat apa? Masuk kategori apa sih?
+    - Saya lagi riset nih. Infonya dong: gambar produk, kategori, harganya, brand-nya dan kegunaannya apa.
+    - Gambar produk mana ya? Dan ini buat apa sih? Harganya, brand-nya dan ini masuk kategori apa?
+- intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url+tanya_brand
+  examples: |
+    - Gak nemu info lengkap, saya perlu penjelasan produk, harganya, brand-nya, link-nya dan dari kategori mana.
+    - Ini produk jual di mana ya? Butuh link, harga, deskripsi, brand dan info kategorinya juga.
+    - Link produk ini saya belum nemu, sekaligus tolong kasih tahu harganya, asal brand, deskripsi dan kategori-nya.
+    - Ini produk elektronik atau fashion? Link-nya mana, brand-nya apa, harga dan penjelasannya juga dong.
+    - Ini dari brand mana sih? Saya juga perlu tahu fungsinya, link pembelian, harga dan produk ini masuk kategori apa.
+    - Mau tahu fungsi barang ini. Harganya berapa, link pembelian, kategori, dan asal brand-nya juga.
+    - Tolong kirim link produk ini dan info lengkapnya. Harganya, kategori, dari brand mana dan penjelasannya.
+    - Pengen tahu dulu detail produk ini. Fungsi, harga, kategori, link dan siapa brand-nya?
+    - Lagi riset produk. Saya perlu info harganya, brand-nya, termasuk kategori apa, fungsinya apa dan URL beli-nya.
+- intent: tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Gambar produk ini ada? Saya juga mau tahu harganya, brand-nya, kategori, dan beli di mana.
+    - Ini barang dari brand mana ya? Harganya berapa, gambarnya gimana dan saya mau tahu link serta kategori-nya.
+    - Barang ini kategori apa sih? Juga brand-nya siapa, harga berapa, tampilannya gimana dan link ke marketplace-nya.
+    - Barang ini keren, tapi saya belum tahu tampilannya. Juga mau tahu harga, brand, tautan dan ini produk kategori apa.
+    - Link produk belum saya temukan. Juga pengen tahu mereknya siapa, harganya, foto dan dari kategori mana.
+    - Lagi pilih produk, saya butuh link, info harga, brand, kategori dan gambarnya seperti apa.
+    - Boleh kirim gambar produknya? Saya juga butuh tahu harga, brand, link ke produk dan kategori-nya.
+    - Produk ini cocok buat siapa ya? Lihat gambar dulu, terus harga, mereknya, dan link ke tokonya gimana?
+    - Harganya berapa nih produk? Link belinya dan fotonya dong, terus ini termasuk produk kategori apa dan merek apa?
+- intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  examples: |
+    - Cek produk ini dong. Gambar dan link-nya ada? Sekalian info diskon, fungsi, dan kategori-nya juga.
+    - Promo ini berlaku sampai kapan? Tolong kirim juga foto produk, penjelasan, tautan dan kategori produknya.
+    - Link produk ini bisa dikirim? Saya juga perlu tahu deskripsi, diskon, gambar, dan ini termasuk kategori apa.
+    - Barang ini masuk kategori apa ya? Terus ada promo gak? Link pembeliannya juga, saya mau lihat tampilannya dan tahu fungsinya.
+    - Ada gambar produk ini? Terus link beli, diskonnya, penjelasan fungsi dan kategori produk.
+    - Kalau bisa, tolong kirim link dan foto barangnya. Saya juga pengen tahu diskonnya dan ini termasuk kategori mana.
+    - Butuh informasi lengkap: diskon, gambar produk, fungsinya, belinya di mana dan ini produk kategori apa?
+    - Ini lagi diskon? Saya pengen tahu fungsinya, tampilannya, belinya di mana dan ini kategori produk apa.
+    - Lagi cari yang sedang diskon. Produk ini ada gambarnya? Link, detail fungsinya, dan masuk kategori apa ya?
+- intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  examples: |
+    - Barang ini biasanya dipakai buat apa ya? Terus fotonya, promonya, dari brand mana dan ini termasuk kategori produk apa?
+    - Saya belum pernah lihat produk ini. Tahu gak ini termasuk apa? Ada fotonya, harganya lagi diskon gak, brand-nya siapa dan buat apa?
+    - Ini termasuk barang elektronik atau pakaian ya? Siapa brand-nya, fotonya ada, lagi diskon gak, dan fungsinya buat apa?
+    - Saya tertarik, tapi belum yakin. Bisa kasih gambar, info diskon, brand dan ini barang apa serta fungsinya?
+    - Sebelum mutusin beli, saya butuh info dulu: deskripsi produk, gambarnya, siapa brand-nya, termasuk kategori apa, dan promo yang tersedia.
+    - Produk ini deskripsinya apa ya? Gambarnya bisa dilihat? Dari brand apa? Masuk kategori mana dan ada diskonnya gak?
+    - Saya cari barang dari brand tertentu, tapi gak yakin ini termasuk kategori apa. Ada gambarnya, deskripsi, dan lagi diskon gak?
+    - Apa produk ini termasuk kebutuhan rumah tangga? Kalau iya, tolong info brand, diskon, gambar, dan fungsinya.
+    - Produk ini masuk kategori apa ya? Saya juga penasaran deskripsinya, ada fotonya nggak? Diskon sama brand-nya juga dong.
+- intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  examples: |
+    - Ini tuh barang apa ya kategorinya? Lagi promo kah? Link dan info brand serta deskripsinya juga dong.
+    - Sebelum beli, saya mau tahu produk ini fungsinya buat apa, mereknya siapa, link belinya di mana, kategori-nya dan apakah ada promo.
+    - Link ke produk ini bisa dikirim? Saya juga penasaran deskripsinya, apakah sedang diskon, brand-nya apa, dan ini termasuk kategori apa.
+    - Lagi cari yang ada diskon. Ini tuh barang kategori apa ya? Dari brand mana, fungsinya gimana dan bisa dikirim link-nya?
+    - Fungsinya produk ini apa? Kategori apa, diskon masih berlaku gak, dan URL-nya sama brand-nya juga dong.
+    - Info lengkap dong, mulai dari penjelasan produk, diskon, siapa brand-nya, link ke produk dan produk ini masuk kategori apa.
+    - Mau belanja hemat, ada diskon gak buat produk ini? Link pembeliannya, brand, kategori, dan penjelasannya juga ya.
+    - Saya lihat ada diskon, ini produk dari brand mana? Bisa tahu deskripsi, URL dan kategori produknya juga?
+    - Tolong kasih link produk, ini brand-nya siapa, fungsi barangnya gimana, diskon berapa dan ini termasuk kategori apa ya?
+- intent: tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Ini produk dari brand mana? Gambarnya seperti apa, ada diskon kah, dan ini kategori barang apa ya? Link belinya juga dong.
+    - Bisa infoin foto barang ini, dari brand mana, apakah sedang diskon, produk kategori apa, dan link untuk beli online?
+    - Saya penasaran ini dari brand mana, apakah sedang promo, gambarnya bisa dilihat gak dan ini kategori produk apa? Link tolong ya.
+    - Ada diskonnya gak sih? Terus gambar produknya mana? Link buat belinya dan brand-nya juga pengen tahu. Ini masuk kategori apa?
+    - Barang ini termasuk elektronik atau fashion? Ada diskon kah? Tampilannya gimana, link belinya dan brand-nya siapa?
+    - Barang ini termasuk fashion atau bukan? Gambarnya, link beli, brand-nya dan diskonnya gimana?
+    - Tertarik beli tapi mau pastikan dulu tampilannya, diskon ada gak, dari brand mana, dan ini masuk kategori mana ya? Link juga dong.
+    - Butuh info: gambar barang, link produk, diskon yang sedang berlaku, brand, dan kategori produk.
+    - Pengen tahu apakah barang ini lagi diskon, tampilannya kayak apa, link pembelian dan brand-nya apa serta kategori-nya.
+- intent: tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Ini termasuk kategori apa sih? Saya juga pengen tahu brand-nya, foto produknya, link beli dan fungsinya.
+    - Ini tampilannya kayak gimana sih? Dari brand mana ya? Bisa kirim deskripsi, link beli dan produk ini tergolong ke apa?
+    - Deskripsinya belum jelas nih. Saya juga pengen tahu tampilannya, link pembelian, ini dari brand mana dan termasuk kategori apa?
+    - Barang ini biasa dipakai buat apa ya? Ada gambarnya? Dari brand apa, dan ini jenis produk apa? Link juga ya.
+    - Saya penasaran produk ini tuh jenisnya apa ya? Bisa minta penjelasan, gambar, brand-nya juga, dan link buat beli?
+    - Sebelum beli, saya mau lihat dulu tampilannya, baca deskripsinya, tahu brand-nya, terus ini termasuk kategori apa? Link-nya dong.
+    - Lagi bandingin barang, bisa kasih foto, info brand, jenis produk, link pembelian dan fungsinya?
+    - Boleh tahu produk ini termasuk kategori apa? Saya pengen lihat tampilannya juga, tahu kegunaannya, brand dan beli lewat mana.
+    - Saya cari produk yang sesuai kebutuhan. Ini brand-nya siapa, tampilannya gimana, link beli ada, fungsinya apa dan ini jenis apa?
+- intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+  examples: |
+    - Sebelum beli, saya mau tahu harga terbaru, penjelasan produknya, lagi diskon gak, tampilannya gimana dan link belinya.
+    - Penasaran harga terbaru, foto barangnya, deskripsi singkat, apakah sedang promo dan link belinya juga.
+    - Diskonnya masih berlaku? Saya juga pengen tahu fungsi produk ini, berapa harganya sekarang, tampilannya dan link-nya.
+    - Ini tampilannya gimana ya? Ada foto lengkap? Harganya, diskon, dan bisa dibeli lewat link yang mana?
+    - Lagi bandingin produk, tolong kirim harga, deskripsi, promo yang sedang berlaku, gambar dan tautan pembelian.
+    - Barang ini fungsinya buat apa ya? Kalau ada diskon tolong infokan. Harganya berapa, fotonya seperti apa dan link pembeliannya.
+    - Saya cari yang fungsinya jelas, harganya terjangkau, ada diskon, tampilannya menarik dan gampang dibeli via link.
+    - Bisa info harga dan diskonnya? Saya juga pengen tahu produk ini buat apa dan ada gambarnya serta link belinya?
+    - Promo masih tersedia? Saya juga mau tahu detail produk, harganya, link untuk beli dan tampilannya.
+- intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+  examples: |
+    - Ada potongan harga untuk produk ini? Ini dari brand mana? Gambarnya, kegunaannya dan harga sekarang berapa?
+    - Lagi cari produk dengan brand terpercaya. Mau tahu juga tampilannya, fungsinya, harga dan apakah ada diskon.
+    - Produk ini lagi promo gak sih? Saya juga penasaran tampilannya, harganya, deskripsinya, dan brand-nya dari mana.
+    - Ini dari brand lokal atau luar? Ada diskon gak ya? Saya mau lihat tampilannya, tahu harganya dan deskripsi produk.
+    - Kalau boleh tahu, gambar produk ini kayak gimana? Fungsinya apa? Dari brand mana, diskon ada gak dan harganya berapa?
+    - Barang ini lagi diskon kah? Saya penasaran juga sama tampilannya, mereknya siapa, harga dan produk ini sebenarnya buat apa.
+    - Gambar produknya mana ya? Dari brand mana ini? Harganya juga mau saya tahu, ada potongan harga gak? Fungsinya untuk apa sih?
+    - Harganya masih sama gak? Barangnya fungsinya apa sih? Ada potongan harga gak dan ini produk dari merek mana? Gambar juga dong.
+    - Ada informasi soal brand, harga, foto, deskripsi dan diskon produk ini? Saya lagi bandingin beberapa item.
+- intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+  examples: |
+    - Barang ini untuk apa sih? Harganya masih sama? Lagi promo nggak? Dan ini dari brand mana ya? Link belinya di mana?
+    - Harganya berapa sekarang? Ada potongan harga nggak? Produk ini buat apa dan siapa brand-nya? Link-nya juga dong.
+    - Saya lihat produknya menarik. Tapi fungsinya buat apa? Ada diskon gak, harga berapa, link belinya dan ini dari brand mana?
+    - Produk ini termasuk brand bagus gak? Saya butuh tahu harganya juga, lagi diskon atau nggak, fungsinya, dan link pembeliannya.
+    - Produk ini dari brand apa ya? Saya juga mau tahu harganya sekarang, link belinya, deskripsinya, dan ada diskon nggak?
+    - Mau nanya, ini brand-nya apa? Terus link belinya di mana? Saya juga perlu tahu deskripsi, harga, dan apakah lagi diskon.
+    - Link produk ini bisa dishare? Saya pengen tahu juga mereknya, harganya sekarang, apakah lagi diskon, dan fungsinya buat apa.
+    - Bisa kasih tahu mereknya apa, harga produk ini berapa, fungsi utamanya, terus link ke tokonya di mana? Diskon juga dong.
+    - Barang ini dipakai buat apa ya? Harganya, promonya, link pembelian dan brand-nya siapa?
+- intent: tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Barang ini tampilannya gimana ya? Bisa lihat gambarnya, terus info harga, link, brand dan ada diskon gak?
+    - Tertarik sama tampilannya, tapi belum tahu harganya, promonya, siapa brand-nya, dan link belinya.
+    - Lagi nyari barang yang diskon dan dari brand bagus. Mau lihat tampilannya dan harganya juga. Ada link belinya?
+    - Ada diskon untuk produk dari brand ini? Saya juga pengen tahu gambarnya seperti apa, harganya, dan bisa dibeli di mana.
+    - Link ke toko mana ya buat produk ini? Saya juga perlu tahu brand-nya, ada diskon, harga sekarang, dan fotonya.
+    - Barang ini ada potongan harga? Saya mau tahu juga brand-nya, harganya sekarang, tampilannya, dan bisa beli lewat link mana?
+    - Ini dari brand mana ya? Saya cari yang ada promo dan harga terjangkau. Link ke toko dan gambarnya juga ya.
+    - Barang ini link pembeliannya di mana? Saya juga butuh tahu brand, promo diskon, foto produknya, dan harganya.
+    - Saya pengen lihat tampilannya dulu. Lalu brand-nya apa, harga berapa, ada diskon gak, dan link tokonya mana?
+- intent: tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Ini produk dari brand apa ya? Harganya berapa, fungsinya buat apa, dan ada link buat beli plus gambarnya?
+    - Saya pengen info barang ini. Berapa harganya, mereknya siapa, penjelasannya gimana, ada link dan gambar gak?
+    - Saya penasaran ini mereknya apa, gambarnya seperti apa, harga produk ini, dan penjelasan tentang barang ini. Link belinya juga dong.
+    - Harganya masih sama gak? Saya juga mau tahu ini produk dari brand mana, tampilannya kayak apa, dan link pembeliannya.
+    - Lagi nyari barang seperti ini, tapi saya butuh tahu dulu brand, harga, kegunaan, tampilan, dan link tokonya.
+    - Sebelum saya checkout, saya mau tahu dulu deskripsi produk ini, gambarnya, link belinya, brand dan harganya.
+    - Ini barang dari brand apa ya? Saya penasaran juga soal harga, penjelasan fungsi, gambar produk dan link belinya.
+    - Sebelum beli, saya harus tahu dulu ini buat apa, siapa brand-nya, link untuk beli, harga, dan tampilannya gimana.
+    - Fungsinya produk ini apa sih? Saya juga pengen tahu harga, brand, link belanja dan fotonya.
+- intent: tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+  examples: |
+    - Barang ini kira-kira lagi diskon gak ya? Brand-nya siapa, fotonya ada, link tokonya dan penjelasannya dong.
+    - Barang ini dari brand mana ya? Saya juga pengen lihat tampilannya, terus ini barang buat apa? Ada link dan diskon gak?
+    - Produk ini berguna buat apa? Merek-nya siapa? Saya juga penasaran tampilannya, harganya diskon gak, dan link-nya.
+    - Produk ini kira-kira ada diskon gak ya? Bisa sekalian share link, gambarnya, merek, dan penjelasan produknya?
+    - Saya lihat ini cukup bagus, boleh dong tahu gambar aslinya, fungsi produk, diskon, link beli, dan siapa brand-nya?
+    - Gambar dan fungsi produk ini bisa dijelasin? Saya juga perlu tahu ada diskon atau nggak dan dari brand mana. Link ya.
+    - Ini barang siapa brand-nya ya? Gambarnya menarik, saya juga butuh tahu deskripsi, diskon, dan di mana belinya.
+    - Diskonnya cuma hari ini? Kalau iya, share dong link-nya, terus produk ini dari brand mana dan gambarnya?
+    - Bisa kasih tahu deskripsi produk ini? Saya juga cari info apakah diskon, link beli, gambar, dan brand-nya apa.

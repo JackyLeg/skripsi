@@ -1,47 +1,660 @@
 version: "3.1"
 
-
 rules:
-  # - rule: Greet the user and ask for their name
-  #   steps:
-  #     - action: action_greet_user
-  #     - intent: perkenalan  # Intent yang digunakan untuk menyebutkan nama
-  #     - action: action_save_nama # Action untuk menyambut pengguna dengan nama mereka
-
-
-  - rule: respond to greeting
+  - rule: sapa
     steps:
-      - intent: menyapa
-      - action: utter_halo
-
-  - rule: respond to payment questions
+      - intent: sapa
+      - action: utter_sapa
+      
+  - rule: Ucapkan terima kasih lalu restart
     steps:
-      - intent: pembayaran
-      - action: utter_topik_pembayaran
+      - intent: pamit
+      - action: utter_pamit
+      - action: action_restart
 
-  - rule: respond to payment methods questions
+  - rule: Jalankan multi info produk setelah fallback diselesaikan
     steps:
-      - intent: jenis_pembayaran  # Menggunakan intent baru
-      - action: utter_jenis_pembayaran
+      - intent: nlu_fallback
+      - action: action_multi_info_produk
 
-  # Tambahkan aturan untuk kategori lainnya jika diperlukan
-
-  # Aturan sapaan dengan nama pengguna
-
-  # Aturan untuk sentimen marah
-  - rule: Tanggapi pengguna yang marah
+  #untuk 1 intent
+  - rule: Jawab kategori produk
     steps:
-      - intent: marah
-      - action: utter_marah
+      - intent: tanya_kategori
+      - action: utter_tanya_kategori
 
-  # Aturan untuk sentimen bahagia
-  - rule: Tanggapi pengguna yang bahagia
+  - rule: Jawab harga produk
     steps:
-      - intent: bahagia
-      - action: utter_bahagia
+      - intent: tanya_harga
+      - action: utter_tanya_harga
 
-  # Aturan untuk sentimen sedih
-  - rule: Tanggapi pengguna yang sedih
+  - rule: Jawab diskon produk
     steps:
-      - intent: sedih
-      - action: utter_sedih
+      - intent: tanya_diskon
+      - action: utter_diskon
+
+  - rule: Jawab deskripsi produk
+    steps:
+      - intent: tanya_deskripsi
+      - action: utter_tanya_deskripsi
+
+  - rule: Jawab gambar produk
+    steps:
+      - intent: tanya_gambar
+      - action: utter_tanya_gambar
+
+  - rule: Jawab URL produk
+    steps:
+      - intent: tanya_url
+      - action: utter_tanya_url
+
+  - rule: Jawab brand produk
+    steps:
+      - intent: tanya_brand
+      - action: utter_tanya_brand
+
+  # 21 kombinasi dua intent
+
+  - rule: Jawab kategori + harga
+    steps:
+      - intent: tanya_kategori+tanya_harga
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon
+    steps:
+      - intent: tanya_kategori+tanya_diskon
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + gambar
+    steps:
+      - intent: tanya_kategori+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + url
+    steps:
+      - intent: tanya_kategori+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + brand
+    steps:
+      - intent: tanya_kategori+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon
+    steps:
+      - intent: tanya_harga+tanya_diskon
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi
+    steps:
+      - intent: tanya_harga+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + gambar
+    steps:
+      - intent: tanya_harga+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + url
+    steps:
+      - intent: tanya_harga+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + brand
+    steps:
+      - intent: tanya_harga+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + gambar
+    steps:
+      - intent: tanya_diskon+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + url
+    steps:
+      - intent: tanya_diskon+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + brand
+    steps:
+      - intent: tanya_diskon+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + gambar
+    steps:
+      - intent: tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + url
+    steps:
+      - intent: tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + brand
+    steps:
+      - intent: tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab gambar + url
+    steps:
+      - intent: tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab gambar + brand
+    steps:
+      - intent: tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab url + brand
+    steps:
+      - intent: tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+#3
+  - rule: Jawab kategori + harga + diskon
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + gambar
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + gambar
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + url
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + gambar
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + url
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + brand
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + gambar
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + url
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + gambar
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + url
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + brand
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + gambar + url
+    steps:
+      - intent: tanya_harga+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + gambar + brand
+    steps:
+      - intent: tanya_harga+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + url + brand
+    steps:
+      - intent: tanya_harga+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + gambar
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + url
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + brand
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + gambar + url
+    steps:
+      - intent: tanya_diskon+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + gambar + brand
+    steps:
+      - intent: tanya_diskon+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + url + brand
+    steps:
+      - intent: tanya_diskon+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + gambar + url
+    steps:
+      - intent: tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + gambar + brand
+    steps:
+      - intent: tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + url + brand
+    steps:
+      - intent: tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab gambar + url + brand
+    steps:
+      - intent: tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+#4
+  - rule: Jawab kategori + harga + diskon + deskripsi
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + gambar
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + gambar
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + gambar
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + url
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + gambar
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + url
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + gambar + url
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + gambar + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + url + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + gambar + url
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + url + brand
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + gambar + url + brand
+    steps:
+      - intent: tanya_harga+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + gambar + url
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + url + brand
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + gambar + url + brand
+    steps:
+      - intent: tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+#5
+  - rule: Jawab kategori + harga + diskon + deskripsi + gambar
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + deskripsi + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + deskripsi + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + gambar + url
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + url + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + gambar + url + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab diskon + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+#6
+  - rule: Jawab kategori + harga + diskon + deskripsi + gambar + url
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + deskripsi + gambar + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + deskripsi + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + diskon + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + harga + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab kategori + diskon + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+  - rule: Jawab harga + diskon + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk
+
+#7
+  - rule: Jawab kategori + harga + diskon + deskripsi + gambar + url + brand
+    steps:
+      - intent: tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand
+      - action: action_multi_info_produk

@@ -1,0 +1,124 @@
+version: "3.1"
+nlu:
+- intent: sapa
+  examples: |
+    - hei, ada di situ?
+    - selamat pagi
+    - hey kamu
+    - good morning
+    - hey asisten virtual
+    - halo asisten
+    - apa kabar chatbot?
+    - hey
+    - woi bot
+- intent: pamit
+  examples: |
+    - aku mau off dulu
+    - saya lanjut nanti aja
+    - sampai nanti
+    - sampai jumpa
+    - aku mau keluar
+    - terima kasih, saya pamit
+    - saya tutup dulu ya
+    - see you later!
+    - bye
+- intent: tampilkan_produk_acak
+  examples: |
+    - tampilkan daftar produk yang acak dong
+    - randomly show 10 items
+    - munculkan 10 produk random ya
+    - kasih aku 10 produk acak
+    - saya pengin produk acak aja dulu
+    - ada produk acak gak?
+    - acakkan daftar produk dan tampilkan
+    - ada rekomendasi produk acak?
+    - listkan item secara acak dong
+    - show random product
+- intent: pilih_produk
+  examples: |
+    - saya pilih produk [01387686b6750b24f043698836dbc108](produk_id)
+    - boleh lihat detail [7890abcdef123456](produk_id)
+    - aku pilih produk nomor [productkey1234abcd](produk_id)
+    - [zzzz9999yyyy8888](produk_id) itu yg aku mau
+    - saya pilih [97266800d4ccf1160b19840493ea894a](produk_id)
+    - tolong tampilkan detail produk [a36466ca477ba77f5a2916f367055b2b](produk_id)
+    - klik produk [prodid777788889999](produk_id) dong
+    - yang id-nya [idproduk11112222](produk_id) saya ambil
+- intent: tanya_kategori
+  examples: |
+    - ini kategori apa ya?
+    - produk ini dikelompokkan sebagai apa?
+    - brg ini kategori apa ya? (brg = barang)
+    - kategori dong
+    - jenis brgnya apa? (singkatan: brg)
+    - produk ini jenisnya apa gitu?
+    - kalo ini, kategorinya apaan?
+    - kamu tahu gak ini kategori apa?
+    - produk ini golongannya apa ya?
+- intent: tanya_harga
+  examples: |
+    - harganya dong
+    - info harga, please
+    - kasih info harga produk ini
+    - kalau beli ini, bayarnya berapa?
+    - berapa harganya?
+    - ini dijual berapa?
+    - total biaya produk ini brp ya?
+    - kira2 harganya berapa ya?
+    - pingin tau harga
+    - infokan dong harganya
+- intent: tanya_diskon
+  examples: |
+    - harga awalnya berapa?
+    - kasih tau diskonnya pls
+    - promo produk ini brp persen?
+    - lg promo kah ini?
+    - diskonnya berapa?
+    - berapa selisih dari harga awal?
+    - saya mau info diskon
+    - diskonnya dpt brp persen?
+- intent: tanya_deskripsi
+  examples: |
+    - penjelasan produk ini seperti apa?
+    - item ini kegunaannya apa ya?
+    - detailnya gimana?
+    - tolong kasih detail produk ya
+    - coba jelasin barang ini
+    - saya mau tahu deskripsi produk
+    - ini produk tentang apa sih?
+    - aku penasaran sama isi produknya
+    - tolong jelasin produk ini dong
+- intent: tanya_gambar
+  examples: |
+    - gambarnya mana ya?
+    - kasih dong gambarnya, pengen liat
+    - foto produknya ada gak?
+    - bisa tunjukkan fotonya?
+    - bisa kasih gambar barang ini?
+    - tampilkan gambarnya
+    - mana nih fotonya?
+    - mana img produk ini? (noise: img = image)
+    - tampilkan poto-nya (typo: poto = foto)
+- intent: tanya_url
+  examples: |
+    - Linknyaaaa mana
+    - blh minta tautan produk ini?
+    - kalo mau beli, lewat link mana?
+    - eh, share link beli produk ini dong
+    - saya mau beli, ada link-nya?
+    - linknya mana ya buat produk ini?
+    - URL buat beli barang ini apa ya?
+    - saya pengen langsung beli, kirim linknya ya
+    - mna link buat produk tsb?
+- intent: tanya_brand
+  examples: |
+    - ini dari brand mana?
+    - saya mau tau asal brand-nya
+    - brand-nya itu apa yaa?
+    - saya penasaran brand-nya
+    - tolong sebutkan brand produk ini
+    - produk ini tuh keluaran mana?
+    - ini merek-nya apa dong?
+    - ini mereknya apa sih?
+    - ini merk apaan yak?
+    - darimana asal produk ini?
