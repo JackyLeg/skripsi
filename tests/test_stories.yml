@@ -1,91 +1,156 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "3.1"
 
 stories:
-- story: happy path 1
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
 
-- story: happy path 2
+- story: Sapa bot
   steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+    - intent: sapa
+    - action: utter_sapa
 
-- story: sad path 1
+- story: Pamit ke bot
   steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
+    - intent: pamit
+    - action: utter_pamit
+    - action: action_restart
 
-- story: sad path 2
+- story: Tanya kategori
   steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
+    - intent: tanya_kategori
+    - action: utter_tanya_kategori
 
-- story: sad path 3
+- story: Tanya harga
   steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+    - intent: tanya_harga
+    - action: utter_tanya_harga
 
-- story: say goodbye
+- story: Tanya diskon
   steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+    - intent: tanya_diskon
+    - action: utter_diskon
 
-- story: bot challenge
+- story: Tanya deskripsi
   steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+    - intent: tanya_deskripsi
+    - action: utter_tanya_deskripsi
+
+- story: Tanya gambar
+  steps:
+    - intent: tanya_gambar
+    - action: utter_tanya_gambar
+
+- story: Tanya url
+  steps:
+    - intent: tanya_url
+    - action: utter_tanya_url
+
+- story: Tanya brand
+  steps:
+    - intent: tanya_brand
+    - action: utter_tanya_brand
+
+# --- Kombinasi 2 intent (dijawab oleh action_multi_info_produk) ---
+
+- story: Tanya kategori + harga
+  steps:
+    - intent: tanya_kategori+tanya_harga
+    - action: action_multi_info_produk
+
+- story: Tanya kategori + diskon
+  steps:
+    - intent: tanya_kategori+tanya_diskon
+    - action: action_multi_info_produk
+
+- story: Tanya kategori + deskripsi
+  steps:
+    - intent: tanya_kategori+tanya_deskripsi
+    - action: action_multi_info_produk
+
+- story: Tanya kategori + gambar
+  steps:
+    - intent: tanya_kategori+tanya_gambar
+    - action: action_multi_info_produk
+
+- story: Tanya kategori + url
+  steps:
+    - intent: tanya_kategori+tanya_url
+    - action: action_multi_info_produk
+
+- story: Tanya kategori + brand
+  steps:
+    - intent: tanya_kategori+tanya_brand
+    - action: action_multi_info_produk
+
+- story: Tanya harga + diskon
+  steps:
+    - intent: tanya_harga+tanya_diskon
+    - action: action_multi_info_produk
+
+- story: Tanya harga + deskripsi
+  steps:
+    - intent: tanya_harga+tanya_deskripsi
+    - action: action_multi_info_produk
+
+- story: Tanya harga + gambar
+  steps:
+    - intent: tanya_harga+tanya_gambar
+    - action: action_multi_info_produk
+
+- story: Tanya harga + url
+  steps:
+    - intent: tanya_harga+tanya_url
+    - action: action_multi_info_produk
+
+- story: Tanya harga + brand
+  steps:
+    - intent: tanya_harga+tanya_brand
+    - action: action_multi_info_produk
+
+- story: Tanya diskon + deskripsi
+  steps:
+    - intent: tanya_diskon+tanya_deskripsi
+    - action: action_multi_info_produk
+
+- story: Tanya diskon + gambar
+  steps:
+    - intent: tanya_diskon+tanya_gambar
+    - action: action_multi_info_produk
+
+- story: Tanya diskon + url
+  steps:
+    - intent: tanya_diskon+tanya_url
+    - action: action_multi_info_produk
+
+- story: Tanya diskon + brand
+  steps:
+    - intent: tanya_diskon+tanya_brand
+    - action: action_multi_info_produk
+
+- story: Tanya deskripsi + gambar
+  steps:
+    - intent: tanya_deskripsi+tanya_gambar
+    - action: action_multi_info_produk
+
+- story: Tanya deskripsi + url
+  steps:
+    - intent: tanya_deskripsi+tanya_url
+    - action: action_multi_info_produk
+
+- story: Tanya deskripsi + brand
+  steps:
+    - intent: tanya_deskripsi+tanya_brand
+    - action: action_multi_info_produk
+
+- story: Tanya gambar + url
+  steps:
+    - intent: tanya_gambar+tanya_url
+    - action: action_multi_info_produk
+
+- story: Tanya gambar + brand
+  steps:
+    - intent: tanya_gambar+tanya_brand
+    - action: action_multi_info_produk
+
+- story: Tanya url + brand
+  steps:
+    - intent: tanya_url+tanya_brand
+    - action: action_multi_info_produk

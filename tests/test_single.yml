@@ -1,0 +1,160 @@
+version: "3.1"
+
+nlu:
+
+- intent: sapa
+  examples: |
+    - hey hey kamu di sana?
+    - selamat subuh bot hehe
+    - bro, ada waktu bentar?
+    - asisten, kamu aktif gak sih?
+    - halo bot pintar, lagi nganggur?
+    - waassalamualaikum, hehe becanda
+    - permisi, boleh nanya dong
+    - eh kamu, bisa ngobrol ga?
+    - greetings from user!
+    - haiii assistant kesayangan
+
+- intent: pamit
+  examples: |
+    - gue duluan ya, makasih
+    - ku tinggal dulu yaa
+    - sampai lain kali, dadah!
+    - see you next chat bot!
+    - udahan dulu, bye!
+    - kelar ngobrolnya, makasih ya
+    - saya pamit ya teman digital
+    - off dulu, nanti balik lagi
+    - stop di sini dulu ya
+    - keluar dulu, see yaa
+
+- intent: fallback
+  examples: |
+    - gua bingung maksudnya
+    - kok gak ngerti sih?
+    - apa sih kamu bicarain?
+    - gak paham jawabannya deh
+    - gak nyambung deh jawaban lo
+    - hmm itu maksudnya gimana?
+    - ah ga jelas bot
+    - ini ngaco jawabannya
+    - kok malah jawab gitu?
+    - kamu salah ngerti kali ya
+
+- intent: tampilkan_produk_acak
+  examples: |
+    - bisa tampilin barang random?
+    - pilihkan item secara acak dong
+    - aku pengen liat contoh produk acak
+    - kasih list produk yang random
+    - ada rekomendasi barang acak gak?
+    - saya butuh inspirasi, acak aja
+    - keluarin aja barang acakan dulu
+    - tunjukin produk random ya bro
+    - apapun boleh, acakin aja
+    - show me something random please
+
+- intent: pilih_produk
+  examples: |
+    - aku mau pilih produk no 7
+    - pilih yang nomor empat aja deh
+    - aku suka item yang ID-nya 101
+    - boleh yang id 003 aja ya
+    - aku ambil yang tadi nomor 2
+    - pilih barang dengan ID 5555
+    - kasih aku detail buat ID 17
+    - ambil produk dengan kode 08
+    - yang ID 99 itu deh kak
+    - ID produk: 003, itu ya!
+
+- intent: tanya_kategori
+  examples: |
+    - itu masuk kategori apa sih?
+    - jenis produknya apa ya?
+    - termasuk golongan apa itu?
+    - ini tipe barang apa ya bro?
+    - barang ini masuk bagian mana?
+    - itu furniture, elektronik, atau apa?
+    - class produknya apa ya?
+    - kelompok produk ini apa sih?
+    - saya penasaran, ini kategori mana?
+    - pengelompokan barangnya gimana?
+
+- intent: tanya_harga
+  examples: |
+    - bisa infoin nominal harganya?
+    - total biaya barang ini berapa?
+    - saya ingin tahu tag harganya
+    - seberapa mahal barang itu?
+    - harga terkini berapa ya?
+    - ada update harga untuk ini?
+    - ini kira-kira mahal ga sih?
+    - nilai jual item itu berapa?
+    - pengeluaran untuk beli ini?
+    - biaya belinya segimana kak?
+
+- intent: tanya_diskon
+  examples: |
+    - potongan harga berlaku gak?
+    - dapet diskon gak nih?
+    - ada promo jalan ga?
+    - promonya masih aktif?
+    - dapat harga miring gak ya?
+    - sale untuk item ini ada?
+    - promo % ada gak bro?
+    - apakah harganya sudah dipotong?
+    - diskaun ada ga kak?
+    - kasih tau dong promo yang jalan
+
+- intent: tanya_deskripsi
+  examples: |
+    - bisa dijelaskan itemnya?
+    - barang ini detailnya apa aja?
+    - spek lengkap barangnya gimana?
+    - tulis penjelasan barang ini dong
+    - informasikan tentang produk itu
+    - apa saja deskripsi produknya?
+    - kasih tahu spesifikasinya ya
+    - narasi tentang item itu gimana?
+    - penggambaran barangnya seperti apa?
+    - apa fungsi & fitur item ini?
+
+- intent: tanya_gambar
+  examples: |
+    - tampilkan fotonya yuk
+    - kasih saya penampakan produk
+    - kirim gambarnya dong
+    - poto produknya mana ya?
+    - saya pengen liat visualnya
+    - bisa share image-nya gak?
+    - minta lihat bentuknya
+    - contoh gambarnya ada?
+    - potonya bisa dilihat gak?
+    - share tampilan barangnya
+
+- intent: tanya_url
+  examples: |
+    - tautan produk ini mana ya?
+    - link pembelian barangnya ada?
+    - saya butuh url produk itu
+    - share link resmi item ini
+    - kasih saya link produk itu
+    - saya pengen akses halamannya
+    - ada alamat web untuk barang ini?
+    - mana link ke tokonya?
+    - url resmi untuk produk ini?
+    - kirimin link produk yang itu ya
+
+- intent: tanya_brand
+  examples: |
+    - barang ini buatan siapa?
+    - nama mereknya apa ya?
+    - produsennya siapa sih?
+    - brandnya saya belum tahu
+    - perusahaan pembuatnya siapa?
+    - siapa manufakturnya?
+    - ini produk merk apa?
+    - penghasil produk ini siapa?
+    - asal brandnya darimana?
+    - label mereknya apa sih?
+
