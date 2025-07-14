@@ -1,0 +1,318 @@
+[
+  {
+    "question": "- Bagaimana cara membuat akun?",
+    "answer": "Untuk membuat akun, klik tombol 'Daftar' di sudut kanan atas situs web kami dan ikuti instruksi untuk menyelesaikan proses pendaftaran."
+  },
+  {
+    "question": "- Metode pembayaran apa yang Anda terima?",
+    "answer": "Kami menerima kartu kredit utama, kartu debit, dan PayPal sebagai metode pembayaran untuk pesanan online."
+  },
+  {
+    "question": "- Bagaimana cara melacak pesanan saya?",
+    "answer": "Anda dapat melacak pesanan Anda dengan masuk ke akun Anda dan menavigasi ke bagian 'Sejarah Pesanan'.Di sana, Anda akan menemukan informasi pelacakan untuk pengiriman Anda."
+  },
+  {
+    "question": "- Apa kebijakan pengembalian Anda?",
+    "answer": "Kebijakan pengembalian kami memungkinkan Anda untuk mengembalikan produk dalam waktu 30 hari setelah pembelian untuk pengembalian dana penuh, asalkan mereka berada dalam kondisi dan kemasan aslinya.Silakan merujuk ke halaman pengembalian kami untuk instruksi terperinci."
+  },
+  {
+    "question": "- Bisakah saya membatalkan pesanan saya?",
+    "answer": "Anda dapat membatalkan pesanan Anda jika belum dikirim.Silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda, dan kami akan membantu Anda dengan proses pembatalan."
+  },
+  {
+    "question": "- Berapa lama pengiriman?",
+    "answer": "Waktu pengiriman bervariasi tergantung pada tujuan dan metode pengiriman yang dipilih.Pengiriman standar biasanya memakan waktu 3-5 hari kerja, sementara pengiriman ekspres dapat memakan waktu 1-2 hari kerja."
+  },
+  {
+    "question": "- Apakah Anda menawarkan pengiriman internasional?",
+    "answer": "Ya, kami menawarkan pengiriman internasional ke negara -negara tertentu.Biaya ketersediaan dan pengiriman akan dihitung selama proses checkout berdasarkan lokasi Anda."
+  },
+  {
+    "question": "- Apa yang harus saya lakukan jika paket saya hilang atau rusak?",
+    "answer": "Jika paket Anda hilang atau rusak selama transit, silakan hubungi tim dukungan pelanggan kami segera.Kami akan memulai penyelidikan dan mengambil langkah -langkah yang diperlukan untuk menyelesaikan masalah."
+  },
+  {
+    "question": "- Bisakah saya mengubah alamat pengiriman saya setelah melakukan pemesanan?",
+    "answer": "Jika Anda perlu mengubah alamat pengiriman Anda, silakan hubungi tim dukungan pelanggan kami sesegera mungkin.Kami akan melakukan yang terbaik untuk memperbarui alamat jika pesanan belum dikirim."
+  },
+  {
+    "question": "- Bagaimana cara menghubungi dukungan pelanggan?",
+    "answer": "Anda dapat menghubungi tim dukungan pelanggan kami melalui telepon di [nomor telepon] atau melalui email di [alamat email].Tim kami tersedia [jam kerja] untuk membantu Anda dengan pertanyaan atau masalah yang mungkin Anda miliki."
+  },
+  {
+    "question": "- Apakah Anda menawarkan layanan pembungkus kado?",
+    "answer": "Ya, kami menawarkan layanan pembungkus hadiah dengan biaya tambahan.Selama proses checkout, Anda dapat memilih opsi untuk menambahkan pembungkus kado ke pesanan Anda."
+  },
+  {
+    "question": "- Apa kebijakan pencocokan harga Anda?",
+    "answer": "Kami memiliki kebijakan pencocokan harga di mana kami akan mencocokkan harga produk identik yang ditemukan di situs web pesaing.Silakan hubungi tim dukungan pelanggan kami dengan rincian produk dan penawaran pesaing."
+  },
+  {
+    "question": "- Bisakah saya memesan melalui telepon?",
+    "answer": "Sayangnya, kami tidak menerima pesanan melalui telepon.Harap letakkan pesanan Anda melalui situs web kami untuk transaksi yang lancar dan aman."
+  },
+  {
+    "question": "- Apakah detail pribadi dan pembayaran saya aman?",
+    "answer": "Ya, kami menanggapi keamanan detail pribadi dan pembayaran Anda dengan serius.Kami menggunakan enkripsi standar industri dan mengikuti protokol keamanan yang ketat untuk memastikan informasi Anda dilindungi."
+  },
+  {
+    "question": "- Apa Kebijakan Penyesuaian Harga Anda?",
+    "answer": "Jika produk yang Anda beli mulai dijual dalam waktu 7 hari setelah pembelian Anda, kami menawarkan penyesuaian harga satu kali.Silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda untuk meminta penyesuaian."
+  },
+  {
+    "question": "- Apakah Anda memiliki program loyalitas?",
+    "answer": "Ya, kami memiliki program loyalitas di mana Anda bisa mendapatkan poin untuk setiap pembelian.Poin -poin ini dapat ditebus dengan diskon untuk pesanan di masa depan.Silakan kunjungi situs web kami untuk mempelajari lebih lanjut dan bergabung dengan program ini."
+  },
+  {
+    "question": "- Bisakah saya memesan tanpa membuat akun?",
+    "answer": "Ya, Anda dapat memesan sebagai tamu tanpa membuat akun.Namun, membuat akun menawarkan manfaat seperti pelacakan pesanan dan pembelian yang lebih mudah di masa depan."
+  },
+  {
+    "question": "- Apakah Anda menawarkan diskon besar -besaran atau grosir?",
+    "answer": "Ya, kami menawarkan diskon besar -besaran atau grosir untuk produk tertentu.Silakan hubungi tim dukungan pelanggan kami atau kunjungi halaman grosir kami untuk informasi lebih lanjut dan untuk membahas persyaratan spesifik Anda."
+  },
+  {
+    "question": "- Bisakah saya mengubah atau membatalkan item dalam pesanan saya?",
+    "answer": "Jika Anda perlu mengubah atau membatalkan item dalam pesanan Anda, silakan hubungi tim dukungan pelanggan kami sesegera mungkin.Kami akan membantu Anda dengan langkah -langkah yang diperlukan."
+  },
+  {
+    "question": "- Bagaimana saya bisa meninggalkan ulasan produk?",
+    "answer": "Untuk meninggalkan ulasan produk, navigasikan ke halaman produk di situs web kami dan klik tombol 'Tulis Ulasan'.Anda dapat membagikan umpan balik dan peringkat Anda berdasarkan pengalaman Anda dengan produk tersebut."
+  },
+  {
+    "question": "- Bisakah saya menggunakan beberapa kode promo pada satu pesanan?",
+    "answer": "Biasanya, hanya satu kode promo yang dapat diterapkan per pesanan.Selama proses checkout, masukkan kode promo di bidang yang ditunjuk untuk menerapkan diskon pada pesanan Anda."
+  },
+  {
+    "question": "- Apa yang harus saya lakukan jika saya menerima barang yang salah?",
+    "answer": "Jika Anda menerima item yang salah dalam pesanan Anda, silakan hubungi tim dukungan pelanggan kami segera.Kami akan mengatur barang yang benar untuk dikirimkan kepada Anda dan membantu mengembalikan barang yang salah."
+  },
+  {
+    "question": "- Apakah Anda menawarkan pengiriman yang dipercepat?",
+    "answer": "Ya, kami menawarkan opsi pengiriman yang dipercepat untuk pengiriman yang lebih cepat.Selama proses checkout, Anda dapat memilih metode pengiriman yang dipercepat yang diinginkan."
+  },
+  {
+    "question": "- Bisakah saya memesan produk yang tidak stok?",
+    "answer": "Jika suatu produk saat ini kehabisan stok, Anda biasanya akan melihat opsi untuk mendaftar untuk pemberitahuan produk.Dengan cara ini, Anda akan diberitahu ketika produk tersedia lagi."
+  },
+  {
+    "question": "- Tentang apa buletin email Anda?",
+    "answer": "Newsletter email kami memberikan pembaruan tentang rilis produk baru, penawaran eksklusif, dan tips bermanfaat yang terkait dengan produk kami.Anda dapat berlangganan buletin kami di situs web kami."
+  },
+  {
+    "question": "- Bisakah saya mengembalikan produk jika saya berubah pikiran?",
+    "answer": "Ya, Anda dapat mengembalikan suatu produk jika Anda berubah pikiran.Harap pastikan produk dalam kondisi dan kemasan aslinya, dan lihat kebijakan pengembalian kami untuk instruksi."
+  },
+  {
+    "question": "- Apakah Anda menawarkan dukungan obrolan langsung?",
+    "answer": "Ya, kami menawarkan dukungan obrolan langsung di situs web kami selama jam kerja kami.Cari ikon obrolan di sudut kanan bawah untuk memulai obrolan dengan tim dukungan pelanggan kami."
+  },
+  {
+    "question": "- Bisakah saya memesan produk sebagai hadiah?",
+    "answer": "Ya, Anda dapat memesan produk sebagai hadiah dan mengirimkannya langsung ke penerima.Selama proses checkout, Anda dapat memasukkan alamat pengiriman penerima."
+  },
+  {
+    "question": "- Apa yang harus saya lakukan jika kode diskon saya tidak berfungsi?",
+    "answer": "Jika kode diskon Anda tidak berfungsi, harap periksa kembali syarat dan ketentuan yang terkait dengan kode.Jika masalah tetap ada, hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+  },
+  {
+    "question": "- Bisakah saya mengembalikan produk jika itu adalah item penjualan akhir?",
+    "answer": "Item penjualan akhir biasanya tidak dapat dikembalikan dan tidak dapat dikembalikan.Harap tinjau deskripsi produk atau hubungi tim dukungan pelanggan kami untuk mengonfirmasi kelayakan pengembalian untuk item tertentu."
+  },
+  {
+    "question": "- Apakah Anda menawarkan layanan instalasi untuk produk Anda?",
+    "answer": "Layanan instalasi tersedia untuk produk tertentu.Silakan periksa deskripsi produk atau hubungi tim dukungan pelanggan kami untuk informasi lebih lanjut dan untuk meminta layanan instalasi."
+  },
+  {
+    "question": "- Bisakah saya memesan produk yang dihentikan?",
+    "answer": "Produk yang dihentikan tidak lagi tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk alternatif di situs web kami."
+  },
+  {
+    "question": "- Bisakah saya mengembalikan produk tanpa tanda terima?",
+    "answer": "Tanda terima atau bukti pembelian biasanya diperlukan untuk pengembalian.Silakan merujuk ke kebijakan pengembalian kami atau hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+  },
+  {
+    "question": "- Bisakah saya memesan produk untuk pengiriman ke negara yang berbeda?",
+    "answer": "Ya, kami menawarkan pengiriman internasional ke negara -negara tertentu.Harap tinjau tujuan pengiriman yang tersedia selama checkout atau hubungi dukungan pelanggan kami untuk mendapatkan bantuan."
+  },
+  {
+    "question": "- Bisakah saya menambahkan pesan hadiah ke pesanan saya?",
+    "answer": "Ya, Anda dapat menambahkan pesan hadiah selama proses checkout.Biasanya ada bagian di mana Anda dapat memasukkan pesan yang dipersonalisasi."
+  },
+  {
+    "question": "- Bisakah saya meminta demonstrasi produk sebelum melakukan pembelian?",
+    "answer": "Kami saat ini tidak menawarkan demonstrasi produk sebelum dibeli.Namun, Anda dapat menemukan deskripsi produk terperinci, spesifikasi, dan ulasan pelanggan di situs web kami."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk yang terdaftar sebagai 'segera hadir'?",
+    "answer": "Produk yang tercantum sebagai 'segera hadir' tidak tersedia untuk pembelian segera.Silakan mendaftar untuk pemberitahuan untuk diinformasikan ketika produk tersedia."
+  },
+  {
+    "question": "- Bisakah saya meminta faktur untuk pesanan saya?",
+    "answer": "Ya, faktur biasanya disertakan dengan pesanan Anda.Jika Anda memerlukan faktur terpisah, silakan hubungi tim dukungan pelanggan kami dengan detail pesanan Anda."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk yang diberi label sebagai 'edisi terbatas'?",
+    "answer": "Produk 'Edisi Terbatas' mungkin memiliki ketersediaan terbatas.Kami sarankan melakukan pemesanan sesegera mungkin untuk mengamankan barang Anda."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika saya tidak lagi memiliki kemasan asli?",
+    "answer": "Saat mengembalikan produk dalam kemasan aslinya lebih disukai, Anda masih dapat memulai pengembalian tanpa itu.Hubungi Tim Dukungan Pelanggan kami untuk bimbingan dalam kasus -kasus seperti itu."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang saat ini kehabisan stok untuk dicadangkan untuk saya?",
+    "answer": "Kami tidak menawarkan reservasi untuk produk di luar stok.Namun, Anda dapat mendaftar untuk pemberitahuan produk untuk diberitahu ketika tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk yang terdaftar sebagai 'pre-order' dengan item in-stock lainnya?",
+    "answer": "Ya, Anda dapat melakukan pemesanan dengan campuran item pre-order dan in-stock.Namun, harap dicatat bahwa seluruh pesanan akan dikirim setelah semua item tersedia."
+  },
+  {
+    "question": "- Bisakah saya mengembalikan produk jika rusak selama pengiriman?",
+    "answer": "Jika produk Anda rusak selama pengiriman, silakan hubungi tim dukungan pelanggan kami segera.Kami akan memandu Anda melalui proses pengembalian dan penggantian."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang kehabisan stok untuk diisi ulang?",
+    "answer": "Kami berusaha untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diinformasikan ketika item tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'dipesan kembali'?",
+    "answer": "Produk yang terdaftar sebagai 'backordered' untuk sementara kehabisan stok tetapi masih dapat dipesan.Pesanan Anda akan dipenuhi setelah produk diisi ulang."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli selama penjualan atau dengan diskon?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli selama penjualan atau dengan diskon.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon."
+  },
+  {
+    "question": "- Dapatkah saya meminta perbaikan atau penggantian produk jika rusak?",
+    "answer": "Jika Anda menerima produk yang rusak, silakan hubungi tim dukungan pelanggan kami segera.Kami akan membantu Anda dengan langkah -langkah yang diperlukan untuk perbaikan atau penggantian."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk pre-order?",
+    "answer": "Jika suatu produk tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli sebagai hadiah?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli sebagai hadiah.Namun, pengembalian uang biasanya akan dikeluarkan untuk metode pembayaran asli yang digunakan untuk pembelian."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk jika terdaftar sebagai 'dihentikan'?",
+    "answer": "Sayangnya, jika suatu produk terdaftar sebagai 'dihentikan,' itu tidak lagi tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk alternatif di situs web kami."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'terjual habis'?",
+    "answer": "Jika suatu produk terdaftar sebagai 'terjual habis,' saat ini tidak tersedia untuk dibeli.Silakan periksa kembali nanti atau daftar pemberitahuan saat tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli dengan kartu hadiah?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kartu hadiah.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko atau kartu hadiah baru."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk jika saat ini tidak tersedia dalam ukuran saya?",
+    "answer": "Jika suatu produk tidak tersedia dalam ukuran Anda, itu mungkin sementara kehabisan stok.Silakan periksa kembali nanti atau daftar untuk pemberitahuan ukuran."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' tetapi tersedia untuk pre-order?",
+    "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda sebelum tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli dengan kode diskon?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kode diskon.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon."
+  },
+  {
+    "question": "- Bisakah saya meminta pesanan khusus atau produk yang dipersonalisasi?",
+    "answer": "Kami saat ini tidak menawarkan pesanan khusus atau produk yang dipersonalisasi.Silakan jelajahi produk yang tersedia di situs web kami."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'sementara tidak tersedia'?",
+    "answer": "Jika suatu produk terdaftar sebagai 'sementara tidak tersedia,' itu kehabisan stok tetapi dapat diisi ulang di masa depan.Silakan periksa kembali nanti atau daftar pemberitahuan."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika rusak karena penggunaan yang tidak tepat?",
+    "answer": "Kebijakan pengembalian kami umumnya mencakup produk yang rusak atau rusak pada saat kedatangan.Kerusakan karena penggunaan yang tidak tepat mungkin tidak memenuhi syarat untuk pengembalian.Silakan hubungi tim dukungan pelanggan kami untuk mendapatkan bantuan."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk jika terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order?",
+    "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order, Anda harus menunggu sampai secara resmi dirilis dan tersedia untuk dibeli."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'ditahan'?",
+    "answer": "Jika suatu produk terdaftar sebagai 'ditahan,' untuk sementara tidak tersedia untuk dibeli.Silakan periksa kembali nanti atau daftar pemberitahuan saat tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika saya tidak lagi memiliki kwitansi asli?",
+    "answer": "Sementara tanda terima lebih disukai untuk pengembalian, kami mungkin dapat membantu Anda tanpanya.Silakan hubungi tim dukungan pelanggan kami untuk panduan lebih lanjut."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang terdaftar sebagai 'edisi terbatas' untuk diisi ulang?",
+    "answer": "Setelah produk edisi terbatas terjual habis, itu mungkin tidak diisi ulang.Item edisi terbatas hanya tersedia untuk waktu terbatas, jadi kami sarankan untuk membelinya saat tersedia."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'dihentikan' tetapi masih terlihat di situs web?",
+    "answer": "Jika suatu produk terdaftar sebagai 'dihentikan' tetapi masih terlihat di situs web, itu mungkin kesalahan.Silakan hubungi tim dukungan pelanggan kami untuk klarifikasi."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika itu adalah izin atau barang penjualan akhir?",
+    "answer": "Barang-barang penjualan atau penjualan akhir biasanya tidak dapat dikembalikan dan tidak dapat dikembalikan.Harap tinjau deskripsi produk atau hubungi tim dukungan pelanggan kami untuk informasi lebih lanjut."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk jika tidak terdaftar di situs web Anda?",
+    "answer": "Jika suatu produk tidak terdaftar di situs web kami, itu mungkin tidak tersedia untuk dibeli.Kami merekomendasikan menjelajahi produk yang tersedia atau menghubungi tim dukungan pelanggan kami untuk bantuan lebih lanjut."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk backorder?",
+    "answer": "Jika suatu produk terdaftar sebagai 'kehabisan stok' tetapi tersedia untuk backorder, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli sebagai bagian dari bundel atau set?",
+    "answer": "Jika suatu produk dibeli sebagai bagian dari bundel atau set, kebijakan pengembalian dapat bervariasi.Silakan merujuk ke Syarat dan Ketentuan tertentu atau hubungi Tim Dukungan Pelanggan kami untuk panduan lebih lanjut."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang terdaftar sebagai 'kehabisan stok' untuk diisi ulang?",
+    "answer": "Kami bertujuan untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diberitahu ketika item tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order?",
+    "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' dan tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda sebelum tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika rusak karena salah penanganan selama pengiriman?",
+    "answer": "Jika produk Anda rusak karena salah penanganan selama pengiriman, silakan hubungi tim dukungan pelanggan kami segera.Kami akan membantu Anda dengan langkah -langkah yang diperlukan untuk pengembalian dan penggantian."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang terdaftar sebagai 'kehabisan stok' untuk disediakan untuk saya?",
+    "answer": "Kami tidak menawarkan reservasi untuk produk di luar stok.Namun, Anda dapat mendaftar untuk pemberitahuan produk untuk diberitahu ketika item tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'pre-order' tetapi tersedia untuk backorder?",
+    "answer": "Jika suatu produk terdaftar sebagai 'pre-order' dan tersedia untuk backorder, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli dengan kredit toko?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kredit toko.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko, yang dapat Anda gunakan untuk pembelian di masa mendatang."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk yang saat ini kehabisan stok untuk diisi ulang?",
+    "answer": "Kami berusaha untuk mengisi kembali produk -produk populer jika memungkinkan.Silakan mendaftar untuk pemberitahuan produk untuk diinformasikan ketika item tersedia lagi."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'terjual habis' tetapi tersedia untuk pre-order?",
+    "answer": "Jika suatu produk terdaftar sebagai 'terjual habis' tetapi tersedia untuk pre-order, Anda dapat melakukan pemesanan untuk mengamankan barang Anda.Produk akan dikirim setelah tersedia."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli dengan kartu hadiah promosi?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli dengan kartu hadiah promosi.Pengembalian uang akan dikeluarkan dalam bentuk kredit toko atau kartu hadiah baru."
+  },
+  {
+    "question": "- Dapatkah saya meminta produk jika saat ini tidak tersedia dalam warna pilihan saya?",
+    "answer": "Jika suatu produk tidak tersedia dalam warna pilihan Anda, itu mungkin sementara kehabisan stok.Silakan periksa kembali nanti atau daftar pemberitahuan warna."
+  },
+  {
+    "question": "- Dapatkah saya memesan produk jika terdaftar sebagai 'segera hadir' dan tidak tersedia untuk pre-order?",
+    "answer": "Jika suatu produk terdaftar sebagai 'segera hadir' tetapi tidak tersedia untuk pre-order, Anda harus menunggu sampai secara resmi dirilis dan tersedia untuk dibeli."
+  },
+  {
+    "question": "- Dapatkah saya mengembalikan produk jika dibeli selama acara promosi?",
+    "answer": "Ya, Anda dapat mengembalikan produk yang dibeli selama acara promosi.Pengembalian uang akan diproses berdasarkan jumlah yang dibayarkan setelah diskon yang berlaku."
+  }
+]
