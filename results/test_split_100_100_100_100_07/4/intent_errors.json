@@ -1,0 +1,34 @@
+[
+  {
+    "text": "kak, barang ini mereknya siapa ya? terus tampilannya seperti apa, dan ini produk apa serta bisa beli di mana?",
+    "intent": "tanya_kategori+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.3493523895740509
+    }
+  },
+  {
+    "text": "admin, saya cari produk diskon, yang ini dapat potongan gak? dan gambarnya serta link produk dan harganya",
+    "intent": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.2879514992237091
+    }
+  },
+  {
+    "text": "min, produk ini fungsinya apa? harganya lagi promo gak? dan link-nya di mana serta dari merek mana?",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+      "confidence": 0.530657172203064
+    }
+  },
+  {
+    "text": "min, tampilannya oke gak? brand-nya siapa, harga diskonnya dan URL tokonya di mana ya?",
+    "intent": "tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.43636420369148254
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "aku pilih produk nomor productkey1234abcd",
+    "entities": [
+      {
+        "start": 23,
+        "end": 41,
+        "value": "productkey1234abcd",
+        "entity": "produk_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "yang id-nya idproduk11112222 saya ambil",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "idproduk11112222",
+        "entity": "produk_id"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

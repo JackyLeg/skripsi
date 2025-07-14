@@ -1,0 +1,82 @@
+[
+  {
+    "text": "hei, ada di situ?",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_url",
+      "confidence": 0.3426445722579956
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_kategori",
+      "confidence": 0.6236056089401245
+    }
+  },
+  {
+    "text": "sekian dulu dari saya",
+    "intent": "pamit",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_brand",
+      "confidence": 0.2835029065608978
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "pamit",
+    "intent_prediction": {
+      "name": "sapa",
+      "confidence": 0.8867635726928711
+    }
+  },
+  {
+    "text": "kalau beli ini, bayarnya berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.48582711815834045
+    }
+  },
+  {
+    "text": "harganya udah diskon belum?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.5478196740150452
+    }
+  },
+  {
+    "text": "tolong berikan informasi harga",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.5706713795661926
+    }
+  },
+  {
+    "text": "dpt harga miring gak?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga",
+      "confidence": 0.6915215253829956
+    }
+  },
+  {
+    "text": "harganya sebelum diskon berapa?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.6586969494819641
+    }
+  },
+  {
+    "text": "mana nih url buat belanja produk itu?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.23866863548755646
+    }
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "tanya_kategori+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_gambar": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_gambar": 1
+    }
+  },
+  "tanya_harga+tanya_gambar": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_gambar": 1
+    }
+  },
+  "tanya_diskon+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_brand": 1
+    }
+  },
+  "tanya_harga+tanya_brand": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_deskripsi": 1,
+      "tanya_kategori+tanya_diskon": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "accuracy": 0.9627659574468085,
+  "macro avg": {
+    "precision": 0.9655122655122654,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9617044478610156,
+    "support": 188
+  },
+  "weighted avg": {
+    "precision": 0.9654362776703201,
+    "recall": 0.9627659574468085,
+    "f1-score": 0.9615603464230037,
+    "support": 188
+  },
+  "micro avg": {
+    "precision": 0.9627659574468085,
+    "recall": 0.9627659574468085,
+    "f1-score": 0.9627659574468085,
+    "support": 188
+  }
+}

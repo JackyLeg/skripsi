@@ -1,0 +1,50 @@
+[
+  {
+    "text": "barang ini termasuk kategori apa, harga sekarang berapa, dan info lengkapnya?",
+    "intent": "tanya_kategori+tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.5261814594268799
+    }
+  },
+  {
+    "text": "min, aku cek produk ini, tapi belum tau kategorinya apa, harga dan infonya gimana ya?",
+    "intent": "tanya_kategori+tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.39132416248321533
+    }
+  },
+  {
+    "text": "ini produk lokal atau luar? kategori dan harganya juga dong",
+    "intent": "tanya_kategori+tanya_harga+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.45629438757896423
+    }
+  },
+  {
+    "text": "barang ini untuk siapa sih? harga dan promo-nya sekarang berapa?",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_brand",
+      "confidence": 0.5389648675918579
+    }
+  },
+  {
+    "text": "saya cari produk sejenis, ini dari brand apa? harga dan diskon mohon infonya",
+    "intent": "tanya_harga+tanya_diskon+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_brand",
+      "confidence": 0.37831562757492065
+    }
+  },
+  {
+    "text": "saya mau tahu produk ini untuk apa, harganya berapa, dan URL belinya di mana?",
+    "intent": "tanya_harga+tanya_deskripsi+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_url",
+      "confidence": 0.3854340612888336
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "text": "mau liat rincian abc987654321def0",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "abc987654321def0",
+        "entity": "produk_id"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

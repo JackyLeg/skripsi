@@ -1,0 +1,112 @@
+{
+  "tampilkan_produk_acak": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_kategori": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "pamit": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_deskripsi+tanya_brand": 1,
+      "sapa": 1
+    }
+  },
+  "sapa": {
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.823529411764706,
+    "support": 9,
+    "confused_with": {
+      "tanya_url": 1,
+      "tanya_kategori": 1
+    }
+  },
+  "tanya_url": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_deskripsi+tanya_url": 1
+    }
+  },
+  "tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_diskon": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 8,
+    "confused_with": {
+      "tanya_harga+tanya_diskon": 1,
+      "tanya_harga": 1
+    }
+  },
+  "pilih_produk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_harga": {
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1-score": 0.7777777777777777,
+    "support": 10,
+    "confused_with": {
+      "tanya_kategori+tanya_harga": 2,
+      "tanya_harga+tanya_diskon": 1
+    }
+  },
+  "tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9574468085106383,
+    "recall": 0.9,
+    "f1-score": 0.9278350515463918,
+    "support": 100
+  },
+  "macro avg": {
+    "precision": 0.958080808080808,
+    "recall": 0.8994949494949495,
+    "f1-score": 0.924518850602442,
+    "support": 100
+  },
+  "weighted avg": {
+    "precision": 0.9572499999999999,
+    "recall": 0.9,
+    "f1-score": 0.9244800113027667,
+    "support": 100
+  },
+  "accuracy": 0.9
+}
