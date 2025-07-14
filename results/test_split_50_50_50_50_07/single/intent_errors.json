@@ -1,0 +1,178 @@
+[
+  {
+    "text": "bro, online gak?",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_url",
+      "confidence": 0.23773929476737976
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "pamit",
+      "confidence": 0.46939176321029663
+    }
+  },
+  {
+    "text": "munculkan produk apa aja lah",
+    "intent": "tampilkan_produk_acak",
+    "intent_prediction": {
+      "name": "tanya_deskripsi",
+      "confidence": 0.27950409054756165
+    }
+  },
+  {
+    "text": "kategorinya tolong disebutkan",
+    "intent": "tanya_kategori",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon",
+      "confidence": 0.43689674139022827
+    }
+  },
+  {
+    "text": "produk ini dikelompokkan sebagai apa?",
+    "intent": "tanya_kategori",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_deskripsi",
+      "confidence": 0.45282092690467834
+    }
+  },
+  {
+    "text": "harganya udah diskon belum?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.8307204842567444
+    }
+  },
+  {
+    "text": "ini dijual berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_url",
+      "confidence": 0.7622857689857483
+    }
+  },
+  {
+    "text": "total biaya produk ini brp ya?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi",
+      "confidence": 0.7916055917739868
+    }
+  },
+  {
+    "text": "ada promo gak sih?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_deskripsi",
+      "confidence": 0.3453792333602905
+    }
+  },
+  {
+    "text": "produk ini lg diskon gak? (typo/singkat: lg = lagi, gak = tidak)",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.754353404045105
+    }
+  },
+  {
+    "text": "dpt diskon berapa klo beli skrg? (klo = kalau, skrg = sekarang)",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.2842259109020233
+    }
+  },
+  {
+    "text": "apakah sedang ada promo untuk ini?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_url",
+      "confidence": 0.27799808979034424
+    }
+  },
+  {
+    "text": "potongan harga, pliss infokan",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.552923321723938
+    }
+  },
+  {
+    "text": "boleh dijelaskan lebih detail produk ini?",
+    "intent": "tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.39394810795783997
+    }
+  },
+  {
+    "text": "minta penjelasan lengkap dong soal barangnya",
+    "intent": "tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_gambar",
+      "confidence": 0.3108769655227661
+    }
+  },
+  {
+    "text": "mana sih pict-nya? (noise: pict = picture)",
+    "intent": "tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_gambar+tanya_url",
+      "confidence": 0.23731067776679993
+    }
+  },
+  {
+    "text": "aku butuh lihat image-nya",
+    "intent": "tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_gambar",
+      "confidence": 0.29236412048339844
+    }
+  },
+  {
+    "text": "produk ini bisa dibeli lewat mana?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_gambar+tanya_url",
+      "confidence": 0.4989815354347229
+    }
+  },
+  {
+    "text": "mana nih url buat belanja produk itu?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.5260599255561829
+    }
+  },
+  {
+    "text": "produk ini tuh keluaran mana?",
+    "intent": "tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.41188815236091614
+    }
+  },
+  {
+    "text": "ini merk apaan yak?",
+    "intent": "tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_brand",
+      "confidence": 0.5079053640365601
+    }
+  },
+  {
+    "text": "ini dari perusahaan mana?",
+    "intent": "tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_brand",
+      "confidence": 0.36921781301498413
+    }
+  }
+]

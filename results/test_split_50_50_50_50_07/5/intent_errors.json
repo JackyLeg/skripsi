@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Produk ini cocok buat siapa ya? Lihat gambar dulu, terus harga, mereknya, dan link ke tokonya gimana?",
+    "intent": "tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.3328767418861389
+    }
+  },
+  {
+    "text": "Kalau bisa, tolong kirim link dan foto barangnya. Saya juga pengen tahu diskonnya dan ini termasuk kategori mana.",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.5885586738586426
+    }
+  },
+  {
+    "text": "Saya belum pernah lihat produk ini. Tahu gak ini termasuk apa? Ada fotonya, harganya lagi diskon gak, brand-nya siapa dan buat apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+      "confidence": 0.2959572672843933
+    }
+  },
+  {
+    "text": "Saya tertarik, tapi belum yakin. Bisa kasih gambar, info diskon, brand dan ini barang apa serta fungsinya?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+      "confidence": 0.5667195916175842
+    }
+  },
+  {
+    "text": "Ada diskonnya gak sih? Terus gambar produknya mana? Link buat belinya dan brand-nya juga pengen tahu. Ini masuk kategori apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.32094189524650574
+    }
+  },
+  {
+    "text": "Ini tampilannya gimana ya? Ada foto lengkap? Harganya, diskon, dan bisa dibeli lewat link yang mana?",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.42209547758102417
+    }
+  },
+  {
+    "text": "Barang ini untuk apa sih? Harganya masih sama? Lagi promo nggak? Dan ini dari brand mana ya? Link belinya di mana?",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_url+tanya_brand",
+      "confidence": 0.31290268898010254
+    }
+  },
+  {
+    "text": "Harganya berapa sekarang? Ada potongan harga nggak? Produk ini buat apa dan siapa brand-nya? Link-nya juga dong.",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_url+tanya_brand",
+      "confidence": 0.30295705795288086
+    }
+  },
+  {
+    "text": "Harganya masih sama gak? Saya juga mau tahu ini produk dari brand mana, tampilannya kayak apa, dan link pembeliannya.",
+    "intent": "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.5165244340896606
+    }
+  },
+  {
+    "text": "Produk ini berguna buat apa? Merek-nya siapa? Saya juga penasaran tampilannya, harganya diskon gak, dan link-nya.",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.42297104001045227
+    }
+  },
+  {
+    "text": "Diskonnya cuma hari ini? Kalau iya, share dong link-nya, terus produk ini dari brand mana dan gambarnya?",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.4336981475353241
+    }
+  }
+]

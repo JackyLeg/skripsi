@@ -1,0 +1,146 @@
+[
+  {
+    "text": "hei, ada di situ?",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_url",
+      "confidence": 0.15394504368305206
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_brand",
+      "confidence": 0.12566658854484558
+    }
+  },
+  {
+    "text": "hey asisten virtual",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_gambar",
+      "confidence": 0.22535933554172516
+    }
+  },
+  {
+    "text": "see you later!",
+    "intent": "pamit",
+    "intent_prediction": {
+      "name": "sapa",
+      "confidence": 0.5474730134010315
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "pamit",
+    "intent_prediction": {
+      "name": "sapa",
+      "confidence": 0.3501810133457184
+    }
+  },
+  {
+    "text": "brg ini kategori apa ya? (brg = barang)",
+    "intent": "tanya_kategori",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_brand",
+      "confidence": 0.32903680205345154
+    }
+  },
+  {
+    "text": "jenis brgnya apa? (singkatan: brg)",
+    "intent": "tanya_kategori",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_brand",
+      "confidence": 0.3334813714027405
+    }
+  },
+  {
+    "text": "kalau beli ini, bayarnya berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.3359506130218506
+    }
+  },
+  {
+    "text": "ini dijual berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_url",
+      "confidence": 0.3222631812095642
+    }
+  },
+  {
+    "text": "total biaya produk ini brp ya?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi",
+      "confidence": 0.20054951310157776
+    }
+  },
+  {
+    "text": "harga awalnya berapa?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga",
+      "confidence": 0.3360549211502075
+    }
+  },
+  {
+    "text": "berapa selisih dari harga awal?",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga",
+      "confidence": 0.24295386672019958
+    }
+  },
+  {
+    "text": "detailnya gimana?",
+    "intent": "tanya_deskripsi",
+    "intent_prediction": {
+      "name": "sapa",
+      "confidence": 0.1822330206632614
+    }
+  },
+  {
+    "text": "tampilkan poto-nya (typo: poto = foto)",
+    "intent": "tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar",
+      "confidence": 0.49440592527389526
+    }
+  },
+  {
+    "text": "linknya mana ya buat produk ini?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.41505149006843567
+    }
+  },
+  {
+    "text": "URL buat beli barang ini apa ya?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.2566930055618286
+    }
+  },
+  {
+    "text": "mna link buat produk tsb?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.32227444648742676
+    }
+  },
+  {
+    "text": "produk ini tuh keluaran mana?",
+    "intent": "tanya_brand",
+    "intent_prediction": {
+      "name": "pamit",
+      "confidence": 0.2718733847141266
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "text": "produk ini tuh sebenernya kategori apa? terus kalo boleh tau, harganya sama diskonnya berapa?",
+    "intent": "tanya_kategori+tanya_harga+tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi",
+      "confidence": 0.4261522591114044
+    }
+  },
+  {
+    "text": "saya penasaran, ini kategori produknya apa ya? terus harga dan infonya dong",
+    "intent": "tanya_kategori+tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.4339791238307953
+    }
+  },
+  {
+    "text": "kak, kategori produk ini apa sih? dan harga sama detailnya boleh tau gak?",
+    "intent": "tanya_kategori+tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.4240393340587616
+    }
+  },
+  {
+    "text": "ini jenis produknya apa ya? harganya dan infonya boleh juga",
+    "intent": "tanya_kategori+tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.4450305104255676
+    }
+  },
+  {
+    "text": "halo, mau nanya, ini produk apa ya? harganya berapa? terus URL produknya bisa dikasih?",
+    "intent": "tanya_kategori+tanya_harga+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi+tanya_url",
+      "confidence": 0.28982308506965637
+    }
+  },
+  {
+    "text": "ini produk lokal atau luar? kategori dan harganya juga dong",
+    "intent": "tanya_kategori+tanya_harga+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.4694806933403015
+    }
+  },
+  {
+    "text": "bisa jelaskan ini barang masuk kategori mana? terus ada diskonnya gak dan mereknya apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_brand",
+      "confidence": 0.35969528555870056
+    }
+  },
+  {
+    "text": "halo admin, bisa kasih tahu fungsi produk ini, termasuk apa, dan tampilan barangnya?",
+    "intent": "tanya_kategori+tanya_deskripsi+tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_gambar",
+      "confidence": 0.30771130323410034
+    }
+  },
+  {
+    "text": "saya penasaran ini tuh produk apa ya? brand-nya siapa dan link-nya mana?",
+    "intent": "tanya_kategori+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_url+tanya_brand",
+      "confidence": 0.4186938405036926
+    }
+  },
+  {
+    "text": "saya pengen tahu ini barang dari merek mana, terus ini jenis apa, dan link buat belinya dong",
+    "intent": "tanya_kategori+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_deskripsi+tanya_url+tanya_brand",
+      "confidence": 0.35395920276641846
+    }
+  },
+  {
+    "text": "kak, ini harganya berapa ya? barangnya kayak gimana dan kegunaannya buat apa sih?",
+    "intent": "tanya_harga+tanya_deskripsi+tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi",
+      "confidence": 0.41297832131385803
+    }
+  },
+  {
+    "text": "ini harganya berapa? saya pengen lihat bentuknya dan halaman penjualannya",
+    "intent": "tanya_harga+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_gambar",
+      "confidence": 0.4129501283168793
+    }
+  },
+  {
+    "text": "pengen tahu ini buat apa, terus harganya diskon gak, dan URL ke produknya",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url",
+      "confidence": 0.42807289958000183
+    }
+  },
+  {
+    "text": "produk ini harganya lagi diskon kah? saya mau lihat tampilannya dan URL-nya",
+    "intent": "tanya_diskon+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.5783466100692749
+    }
+  },
+  {
+    "text": "saya cari barang dari brand tertentu, ini siapa yang buat, ada diskon dan gambar?",
+    "intent": "tanya_diskon+tanya_gambar+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+      "confidence": 0.33862805366516113
+    }
+  },
+  {
+    "text": "admin, minta link ke produk ini, siapa yang buat dan bentuk produknya dong",
+    "intent": "tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.24881693720817566
+    }
+  }
+]
