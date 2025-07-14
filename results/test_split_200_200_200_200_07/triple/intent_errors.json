@@ -1,0 +1,26 @@
+[
+  {
+    "text": "ini produk lokal atau luar? kategori dan harganya juga dong",
+    "intent": "tanya_kategori+tanya_harga+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.451038658618927
+    }
+  },
+  {
+    "text": "barang ini untuk siapa sih? harga dan promo-nya sekarang berapa?",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_brand",
+      "confidence": 0.43024396896362305
+    }
+  },
+  {
+    "text": "saya cari produk sejenis, ini dari brand apa? harga dan diskon mohon infonya",
+    "intent": "tanya_harga+tanya_diskon+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_brand",
+      "confidence": 0.5196840763092041
+    }
+  }
+]

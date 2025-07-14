@@ -1,0 +1,98 @@
+[
+  {
+    "text": "kak, saya penasaran harga dan gambar produk ini, ada diskon gak? dan ini termasuk kategori apa serta buat apa",
+    "intent": "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar",
+      "confidence": 0.2991412281990051
+    }
+  },
+  {
+    "text": "Produk ini cocok buat siapa ya? Lihat gambar dulu, terus harga, mereknya, dan link ke tokonya gimana?",
+    "intent": "tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.474311500787735
+    }
+  },
+  {
+    "text": "Kalau bisa, tolong kirim link dan foto barangnya. Saya juga pengen tahu diskonnya dan ini termasuk kategori mana.",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.5065090656280518
+    }
+  },
+  {
+    "text": "Saya belum pernah lihat produk ini. Tahu gak ini termasuk apa? Ada fotonya, harganya lagi diskon gak, brand-nya siapa dan buat apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+      "confidence": 0.4428004324436188
+    }
+  },
+  {
+    "text": "Saya tertarik, tapi belum yakin. Bisa kasih gambar, info diskon, brand dan ini barang apa serta fungsinya?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand",
+      "confidence": 0.49220094084739685
+    }
+  },
+  {
+    "text": "Ada diskonnya gak sih? Terus gambar produknya mana? Link buat belinya dan brand-nya juga pengen tahu. Ini masuk kategori apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.4981367588043213
+    }
+  },
+  {
+    "text": "Ini tampilannya gimana ya? Ada foto lengkap? Harganya, diskon, dan bisa dibeli lewat link yang mana?",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.4802740514278412
+    }
+  },
+  {
+    "text": "Promo masih tersedia? Saya juga mau tahu detail produk, harganya, link untuk beli dan tampilannya.",
+    "intent": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.30498746037483215
+    }
+  },
+  {
+    "text": "Link ke toko mana ya buat produk ini? Saya juga perlu tahu brand-nya, ada diskon, harga sekarang, dan fotonya.",
+    "intent": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.4439363181591034
+    }
+  },
+  {
+    "text": "Harganya masih sama gak? Saya juga mau tahu ini produk dari brand mana, tampilannya kayak apa, dan link pembeliannya.",
+    "intent": "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.46272584795951843
+    }
+  },
+  {
+    "text": "Produk ini berguna buat apa? Merek-nya siapa? Saya juga penasaran tampilannya, harganya diskon gak, dan link-nya.",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.5385990738868713
+    }
+  },
+  {
+    "text": "Diskonnya cuma hari ini? Kalau iya, share dong link-nya, terus produk ini dari brand mana dan gambarnya?",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.418340802192688
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "kak, ini produk buat rumah atau outdoor? tampilannya gimana, ada diskon gak dan termasuk jenis apa?",
+    "intent": "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon+tanya_gambar",
+      "confidence": 0.4360331892967224
+    }
+  },
+  {
+    "text": "barang ini dijual di mana ya? kasih URL-nya dong, terus tampilannya dan info diskon serta kategori-nya",
+    "intent": "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.4134044647216797
+    }
+  },
+  {
+    "text": "admin, saya cari produk diskon, yang ini dapat potongan gak? dan gambarnya serta link produk dan harganya",
+    "intent": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.3405664563179016
+    }
+  },
+  {
+    "text": "kak, kasih info dong diskonnya, terus gambar dan buat apa serta link pembeliannya",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_diskon+tanya_gambar+tanya_url",
+      "confidence": 0.43964681029319763
+    }
+  },
+  {
+    "text": "min, produk ini fungsinya apa? harganya lagi promo gak? dan link-nya di mana serta dari merek mana?",
+    "intent": "tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand",
+      "confidence": 0.5030827522277832
+    }
+  },
+  {
+    "text": "min, tampilannya oke gak? brand-nya siapa, harga diskonnya dan URL tokonya di mana ya?",
+    "intent": "tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand",
+      "confidence": 0.5564273595809937
+    }
+  }
+]

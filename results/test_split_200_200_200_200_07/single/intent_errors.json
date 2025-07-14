@@ -1,0 +1,90 @@
+[
+  {
+    "text": "bro, online gak?",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "tanya_url",
+      "confidence": 0.6190924048423767
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "sapa",
+    "intent_prediction": {
+      "name": "pamit",
+      "confidence": 0.9757987260818481
+    }
+  },
+  {
+    "text": "munculkan produk apa aja lah",
+    "intent": "tampilkan_produk_acak",
+    "intent_prediction": {
+      "name": "tanya_deskripsi",
+      "confidence": 0.38239631056785583
+    }
+  },
+  {
+    "text": "harganya udah diskon belum?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.5511900782585144
+    }
+  },
+  {
+    "text": "ini dijual berapa?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_url",
+      "confidence": 0.4544646143913269
+    }
+  },
+  {
+    "text": "total biaya produk ini brp ya?",
+    "intent": "tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi",
+      "confidence": 0.6196311116218567
+    }
+  },
+  {
+    "text": "produk ini lg diskon gak? (typo/singkat: lg = lagi, gak = tidak)",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_diskon",
+      "confidence": 0.7410297393798828
+    }
+  },
+  {
+    "text": "dpt diskon berapa klo beli skrg? (klo = kalau, skrg = sekarang)",
+    "intent": "tanya_diskon",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon",
+      "confidence": 0.4667876958847046
+    }
+  },
+  {
+    "text": "mana sih pict-nya? (noise: pict = picture)",
+    "intent": "tanya_gambar",
+    "intent_prediction": {
+      "name": "tanya_gambar+tanya_url",
+      "confidence": 0.4619167149066925
+    }
+  },
+  {
+    "text": "mana nih url buat belanja produk itu?",
+    "intent": "tanya_url",
+    "intent_prediction": {
+      "name": "tanya_deskripsi+tanya_url",
+      "confidence": 0.5957220792770386
+    }
+  },
+  {
+    "text": "produk ini tuh keluaran mana?",
+    "intent": "tanya_brand",
+    "intent_prediction": {
+      "name": "pamit",
+      "confidence": 0.5067701935768127
+    }
+  }
+]

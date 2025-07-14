@@ -1,0 +1,50 @@
+[
+  {
+    "text": "masuk ke kategori apa dan harga sekarang diskon gak?",
+    "intent": "tanya_kategori+tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_diskon",
+      "confidence": 0.5910815000534058
+    }
+  },
+  {
+    "text": "produk ini tuh dikategorikan sebagai apa dan nominalnya?",
+    "intent": "tanya_kategori+tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_deskripsi",
+      "confidence": 0.22478052973747253
+    }
+  },
+  {
+    "text": "ini produk apa sih dan bayarnya berapa?",
+    "intent": "tanya_kategori+tanya_harga",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_deskripsi",
+      "confidence": 0.8446595668792725
+    }
+  },
+  {
+    "text": "produk ini di bawah kategori apa dan seperti apa bentuknya?",
+    "intent": "tanya_kategori+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_gambar",
+      "confidence": 0.6641197800636292
+    }
+  },
+  {
+    "text": "spek lengkap dan harganya berapa dong?",
+    "intent": "tanya_harga+tanya_deskripsi",
+    "intent_prediction": {
+      "name": "tanya_kategori+tanya_harga",
+      "confidence": 0.16691531240940094
+    }
+  },
+  {
+    "text": "beli di mana dan berapa duit yang harus saya siapkan?",
+    "intent": "tanya_harga+tanya_url",
+    "intent_prediction": {
+      "name": "tanya_harga+tanya_brand",
+      "confidence": 0.563090980052948
+    }
+  }
+]

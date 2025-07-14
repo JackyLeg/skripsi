@@ -1,0 +1,1036 @@
+{
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "sapa": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 9,
+    "confused_with": {
+      "tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": 1,
+      "tanya_diskon+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_harga+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "tanya_harga+tanya_deskripsi+tanya_brand": 1,
+      "tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_url+tanya_brand": 1,
+      "tanya_kategori+tanya_deskripsi+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_url": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon+tanya_brand": 1,
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_brand": 1
+    }
+  },
+  "tanya_deskripsi+tanya_brand": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.75,
+    "support": 9,
+    "confused_with": {
+      "tanya_brand": 3
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_harga": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "tanya_kategori+tanya_harga": 1,
+      "tanya_harga+tanya_deskripsi": 1
+    }
+  },
+  "tanya_diskon+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_gambar": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_gambar+tanya_url": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_gambar": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_deskripsi+tanya_gambar": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 2
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_gambar": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_url": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_brand": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_deskripsi+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_brand": 1
+    }
+  },
+  "tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "pamit": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "sapa": 2
+    }
+  },
+  "tanya_harga+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tampilkan_produk_acak": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_diskon+tanya_gambar": 1
+    }
+  },
+  "tanya_diskon+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori": 2,
+      "tanya_kategori+tanya_harga+tanya_diskon": 1
+    }
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_deskripsi+tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar+tanya_url": 2
+    }
+  },
+  "tanya_diskon": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1-score": 0.7058823529411765,
+    "support": 8,
+    "confused_with": {
+      "tanya_harga": 2
+    }
+  },
+  "tanya_kategori": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.7999999999999999,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_brand": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_gambar": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon+tanya_gambar": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_brand": {
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1-score": 0.7826086956521738,
+    "support": 10,
+    "confused_with": {
+      "tanya_deskripsi": 1
+    }
+  },
+  "tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_gambar": 1
+    }
+  },
+  "tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_url": 2
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori": 1,
+      "tanya_kategori+tanya_gambar": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_gambar": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_gambar": 1
+    }
+  },
+  "tanya_diskon+tanya_brand": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_brand": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": 1,
+      "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": 1
+    }
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi+tanya_url+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_deskripsi": 1
+    }
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_deskripsi": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "pilih_produk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_diskon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_url+tanya_brand": 1,
+      "tanya_kategori+tanya_harga": 1
+    }
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_deskripsi+tanya_url": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_harga+tanya_diskon": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "tanya_harga+tanya_diskon+tanya_deskripsi": 2,
+      "tanya_diskon": 1
+    }
+  },
+  "tanya_kategori+tanya_diskon+tanya_gambar": {
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.823529411764706,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_diskon+tanya_deskripsi+tanya_gambar": 1,
+      "tanya_kategori+tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_gambar+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_harga+tanya_diskon+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_deskripsi+tanya_url": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_brand": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar+tanya_url+tanya_brand": 1
+    }
+  },
+  "tanya_harga+tanya_diskon+tanya_gambar+tanya_url": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.7999999999999999,
+    "support": 9,
+    "confused_with": {
+      "tanya_diskon+tanya_gambar+tanya_url": 1
+    }
+  },
+  "tanya_kategori+tanya_harga+tanya_diskon+tanya_deskripsi+tanya_gambar": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "tanya_kategori+tanya_harga+tanya_diskon+tanya_gambar": 1
+    }
+  },
+  "accuracy": 0.9427350427350427,
+  "macro avg": {
+    "precision": 0.9491002800618186,
+    "recall": 0.9428418803418802,
+    "f1-score": 0.9428417969311764,
+    "support": 1170
+  },
+  "weighted avg": {
+    "precision": 0.9489685219813424,
+    "recall": 0.9427350427350427,
+    "f1-score": 0.9427080246064409,
+    "support": 1170
+  },
+  "micro avg": {
+    "precision": 0.9427350427350427,
+    "recall": 0.9427350427350427,
+    "f1-score": 0.9427350427350427,
+    "support": 1170
+  }
+}
